@@ -1,0 +1,38 @@
+{
+  "identifier" : "CONDOLAW-FULL-UNLOCK-STOREKIT",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "390",
+      "familyShareable" : true,
+      "internalID" : "CONDOLAW_FULL_UNLOCK",
+      "localizations" : [
+        {
+          "description" : "解鎖公寓大廈管理條例全圖解完整版，永久使用全部 250 張圖解、條文摘要、題庫測驗、檢核工具與法規資源。",
+          "displayName" : "公寓大廈管理條例全圖解 完整版",
+          "locale" : "zh_TW"
+        },
+        {
+          "description" : "Unlock all 250 condominium-law illustrations, summaries, quizzes, checklists, and official resources. One-time purchase.",
+          "displayName" : "Condo Law Illustrated Full Unlock",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.taiwanarch.condolaw.fullunlock",
+      "referenceName" : "CondoLaw Full Unlock",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_developerTeamID" : "7H7ZUG2WX8",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_TW",
+    "_storefront" : "TWN",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

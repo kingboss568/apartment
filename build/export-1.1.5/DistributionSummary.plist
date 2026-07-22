@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>公寓大廈管理條例全圖解.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>5</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>5FCF5A9DE3930BA649B143D9D396B98B52C5DD71</string>
+				<key>dateExpires</key>
+				<string>2027/5/17</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>7H7ZUG2WX8.com.taiwanarch.condolaw</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>7H7ZUG2WX8</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>TaiwanCondoLaw.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>dde5b908-ed69-4f2c-824f-8ca8b7588fdf</string>
+				<key>dateExpires</key>
+				<string>2027/5/17</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.taiwanarch.condolaw</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>7H7ZUG2WX8</string>
+				<key>name</key>
+				<string>Yu Shiung Jiang</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

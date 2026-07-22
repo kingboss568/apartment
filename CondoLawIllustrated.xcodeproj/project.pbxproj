@@ -1,0 +1,1641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CE46A4D695CDE7B542E4DD /* 01-11-屋頂平台區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 44AAA6E47991C85DF58E558E /* 01-11-屋頂平台區分所有權圖解檢核.heic */; };
+		0355664F06C7A8047E094F6E /* 05-24-清潔維護現場文件閱覽不得拒絕檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 55106E76E246645BD9D80B3E /* 05-24-清潔維護現場文件閱覽不得拒絕檢核.heic */; };
+		03AD2A24355EBF052ACD54A7 /* 05-30-公共安全巡檢管理委員會職務檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7694FC0F6D97969888FD58B3 /* 05-30-公共安全巡檢管理委員會職務檢核.heic */; };
+		04292BAAB011CADA9EE3B57B /* 08-11-裁處書桌面四萬至二十萬罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E177BD95D52E5F6387ADC5D5 /* 08-11-裁處書桌面四萬至二十萬罰鍰檢核.heic */; };
+		042A8C7FAB1CDD1D9E224A06 /* FullTextHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C3ADBC2653D2E01EBAF5DD /* FullTextHomeView.swift */; };
+		051A30FE5910C18D6B1FA056 /* 03-02-公共基金不得扣押抵銷.heic in Resources */ = {isa = PBXBuildFile; fileRef = B7BAE80CE502E694184FCEFB /* 03-02-公共基金不得扣押抵銷.heic */; };
+		0682D8FE3E727965FA4E7C20 /* 03-05-公告欄公共基金來源檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = EED82F9DE43DB95219CC5480 /* 03-05-公告欄公共基金來源檢核.heic */; };
+		06AB5A0CD6337C98DB986030 /* 07-12-機電設備室舊有公寓成立管理組織檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = CAC0763B7EAA7FC7774159D0 /* 07-12-機電設備室舊有公寓成立管理組織檢核.heic */; };
+		06EBFF4B79970AFFC672EA5D /* 04-13-投票區區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = F37555D1828020CA339E0E36 /* 04-13-投票區區分所有權人會議召集檢核.heic */; };
+		07AE63D428B0B7F4A385EB5C /* 01-15-社區基地住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B39968EA66165BE65A8F3414 /* 01-15-社區基地住戶義務總覽檢核.heic */; };
+		098366E3F52D640E66F2FEF4 /* 05-31-主任委員簽章起造人召集第一次會議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9DAC3D2A992C4079D04F060D /* 05-31-主任委員簽章起造人召集第一次會議檢核.heic */; };
+		0C370740C14DCF043EDA811C /* 01-23-機電室區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E7754ADF9C6FE497BEDE31E3 /* 01-23-機電室區分所有權圖解檢核.heic */; };
+		0C3A960EA10E94A0F1D6E3E8 /* 01-01-公寓大廈定義圖解.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5B32ACACF8E8254F0E71BA93 /* 01-01-公寓大廈定義圖解.heic */; };
+		0E10770ECF39C9C2300910D5 /* 04-39-規約修訂桌表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0B52FE83DB666EB3496FEF1F /* 04-39-規約修訂桌表決權與委託出席檢核.heic */; };
+		0E4D45C89D02AF415CAC73DC /* IllustrationsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B765E85A22742DF7874CC /* IllustrationsHomeView.swift */; };
+		0F5FC3CBD3D24EB225DA5471 /* 06-02-委任管理服務人.heic in Resources */ = {isa = PBXBuildFile; fileRef = 8048BF878491E1D346E30D97 /* 06-02-委任管理服務人.heic */; };
+		103080DA59ACAEE57A39DA04 /* 03-27-電梯維修收支公告與移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 887E62F05D4F181E2470CF30 /* 03-27-電梯維修收支公告與移交檢核.heic */; };
+		113A42E83584AADAED394E93 /* 05-15-管理中心管理委員會職務檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 291656D3995720A133A02F3E /* 05-15-管理中心管理委員會職務檢核.heic */; };
+		11D52BE357343F9E0C0A4886 /* 04-28-重新召集會議區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 254E607ADCB43463C0D02E56 /* 04-28-重新召集會議區分所有權人會議召集檢核.heic */; };
+		1339B7B27F0CCEA2EE461168 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20DE4F018AC970AB7E66C66 /* ContentView.swift */; };
+		135E8BC42FFB2BD5320FF969 /* 08-15-調處會議四萬至二十萬罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = DB8C10E0F87E3FB2DBCBD560 /* 08-15-調處會議四萬至二十萬罰鍰檢核.heic */; };
+		13F00C82087A9B1CCE936894 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028B932A5BB4DF952074ACF /* OnboardingView.swift */; };
+		152223A26CF7FBEAD597E163 /* 04-06-公告欄規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5228751BFEB41FF67C40A060 /* 04-06-公告欄規約應載明事項檢核.heic */; };
+		17757D24D23D4F0EB80B1F8E /* TaiwanCondoLawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF62E6E03E88BB3892DE06C /* TaiwanCondoLawApp.swift */; };
+		17EF8977E9BFB7A791BA0769 /* 01-24-機電室住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEFB5C2FBB2250EB059DA0 /* 01-24-機電室住戶義務總覽檢核.heic */; };
+		18371460E658D874803D4284 /* 07-04-舊有公寓成立管理組織.heic in Resources */ = {isa = PBXBuildFile; fileRef = 207319F0F778819D1844F4C4 /* 07-04-舊有公寓成立管理組織.heic */; };
+		1859A63DBA87BA6B0957F4D0 /* 03-17-管委會交接公共基金來源檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5D9D44B240EE3E60F07DF960 /* 03-17-管委會交接公共基金來源檢核.heic */; };
+		1919E475E35EDF46860FF49D /* 01-22-機電室公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 143086BF6B922E1EC212716C /* 01-22-機電室公寓大廈定義圖解檢核.heic */; };
+		1957D9BC99A5DB5BF8C7C578 /* 01-09-地下停車層住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E768C689FA491768B9A27F98 /* 01-09-地下停車層住戶義務總覽檢核.heic */; };
+		19BFBF8B266A95B90F3D432E /* 03-10-銀行專戶公共基金不得扣押抵銷檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = F205BC5A4AFAE19A842FAF87 /* 03-10-銀行專戶公共基金不得扣押抵銷檢核.heic */; };
+		1DA69AF195A745C31FA7C4C5 /* 05-17-文件櫃管理委員會成立檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = A5A396CE45E59CE96A787FAE /* 05-17-文件櫃管理委員會成立檢核.heic */; };
+		21001363D0BF1D10728AF7AA /* 05-03-會議紀錄保存.heic in Resources */ = {isa = PBXBuildFile; fileRef = AC30D6B84D652353E47E851F /* 05-03-會議紀錄保存.heic */; };
+		212B07D7FE2FCBA7C33F9A38 /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = F962007746F30AFCB5B97556 /* articles.json */; };
+		2176C711084D5FFB43760FEB /* RegulatoryResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F31603886B12B790ADD2B /* RegulatoryResourcesView.swift */; };
+		2406522B02A4573D6614158E /* 01-02-區分所有權圖解.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0DD7352A22A0B0239A593C12 /* 01-02-區分所有權圖解.heic */; };
+		25901A4314A4171A6DB34003 /* 02-16-樓梯間防火巷弄堆置禁止檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 8F7DE530F3150FB3A0E8C3BD /* 02-16-樓梯間防火巷弄堆置禁止檢核.heic */; };
+		25C5D2AE33C20322C47D4E1A /* 05-05-管理委員會職務.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5215D9549D779BB41C2EBA93 /* 05-05-管理委員會職務.heic */; };
+		26A0027004AFC0B9804C18F8 /* 08-18-證據照片牆一千至五千罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = A956D3DF512271D01B27A7B6 /* 08-18-證據照片牆一千至五千罰鍰檢核.heic */; };
+		288A3BCA0975CDF6F4F8CFC0 /* 08-20-證據照片牆主管機關處理爭議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = A4BDEC75F028CC96FCB79D5F /* 08-20-證據照片牆主管機關處理爭議檢核.heic */; };
+		2905F1B613C43F2ECC16FAD6 /* 03-06-公告欄公共基金不得扣押抵銷檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 16F7F149A77B904EB1F770F6 /* 03-06-公告欄公共基金不得扣押抵銷檢核.heic */; };
+		297554A0543853D7BA51B0FF /* 07-08-圖說交接桌舊有公寓成立管理組織檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 17FAEE3AE9725D0F1B5F6721 /* 07-08-圖說交接桌舊有公寓成立管理組織檢核.heic */; };
+		2AB05FF9C78912124C7DFF58 /* 04-17-住戶信箱繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AFAE0DC6C9DE12AC4E9A0EB7 /* 04-17-住戶信箱繼受人文件閱覽檢核.heic */; };
+		2B3D4EFD134A8B33DE62543C /* 01-29-管道間區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 8516CA876550EA4FDA07C0C7 /* 01-29-管道間區分所有權圖解檢核.heic */; };
+		2B5BBF95A3310DFD51F38E5C /* 02-27-地下室共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = F8E5B1142FFCFC9812458F7A /* 02-27-地下室共用部分修繕分工檢核.heic */; };
+		2C8D206C875BD2847CCB85B5 /* 06-20-服務契約桌管理服務人員禁止事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E45ECC2D9CF13F3BF26925FE /* 06-20-服務契約桌管理服務人員禁止事項檢核.heic */; };
+		2CA8046F533F5A11A095A1AD /* 02-06-樓頂平台外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 8110F17156573A4B3AB61744 /* 02-06-樓頂平台外牆與樓頂平台限制檢核.heic */; };
+		2D60E77637884F60AC028DD8 /* 04-05-決議門檻圖解.heic in Resources */ = {isa = PBXBuildFile; fileRef = 47BAD2B1FEC24CB460EF3CA4 /* 04-05-決議門檻圖解.heic */; };
+		2E2DE82B1475E1980EECB0A0 /* 07-06-圖說交接桌設施設備移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A6AAABBE421B43837998E /* 07-06-圖說交接桌設施設備移交檢核.heic */; };
+		2ECAAF071EADABD22AA74D2D /* 06-04-管理服務人員禁止事項.heic in Resources */ = {isa = PBXBuildFile; fileRef = 298F6120771646B09D685C9B /* 06-04-管理服務人員禁止事項.heic */; };
+		2FDE186297F45975B3D75F37 /* 07-23-竣工圖說箱共用部分不得讓售檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E64AA8305F0266110A2C5E70 /* 07-23-竣工圖說箱共用部分不得讓售檢核.heic */; };
+		3080D04618BAE214DC47E291 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A82C9AF7F7FC72A7D6AB89B /* IAPManager.swift */; };
+		3504418DCFDE4B11049C8E2F /* 04-07-公告欄繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 66F1EFF6E27F0F745842A439 /* 04-07-公告欄繼受人文件閱覽檢核.heic */; };
+		351128D8EA7C4A89FBC0D130 /* 04-38-規約修訂桌區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B139F66E9D27F4A83DD5CA27 /* 04-38-規約修訂桌區分所有權人會議召集檢核.heic */; };
+		361D4B2CCB975393D791E10F /* 02-23-門廳共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 71107475F6D8AA47760036DF /* 02-23-門廳共用部分修繕分工檢核.heic */; };
+		36B15D98DAE4F043209FF70E /* 06-11-派駐人員管理維護公司執業規範檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6853521856F9E702F14714E2 /* 06-11-派駐人員管理維護公司執業規範檢核.heic */; };
+		372CBB17F91A6B1940A9C41C /* 04-12-投票區繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 04B451EE34D80D7884D69C37 /* 04-12-投票區繼受人文件閱覽檢核.heic */; };
+		38B324DE003BC4D2DBA8F452 /* CondoQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF648E0449B8C3ED796F3 /* CondoQuizView.swift */; };
+		38CDE0A37CB9ED93574FF857 /* 05-06-管委會辦公桌起造人召集第一次會議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = C0C487B21B40D7F6BAF196E4 /* 05-06-管委會辦公桌起造人召集第一次會議檢核.heic */; };
+		39AC450207A7DC8AF8E60FE1 /* 05-38-住戶服務櫃台會議紀錄保存檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 69B815BC7646530DB0909FC1 /* 05-38-住戶服務櫃台會議紀錄保存檢核.heic */; };
+		3A18A4C4035F7733979A4465 /* 06-08-社區服務中心管理服務人員禁止事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 80840D3BF5312B9AF9CF3B73 /* 06-08-社區服務中心管理服務人員禁止事項檢核.heic */; };
+		3A900BE9E8C972AF0B42D5DB /* 08-16-調處會議主管機關處理爭議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 126C80515384B763263E0421 /* 08-16-調處會議主管機關處理爭議檢核.heic */; };
+		3BCFC9F56CAA7E1AC7BF1C9B /* 02-31-停車空間共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6ADD4A5D4C21E49DCD874E03 /* 02-31-停車空間共用部分修繕分工檢核.heic */; };
+		3CBC72B7F54E8F405BBD596E /* 03-11-銀行專戶收支公告與移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7A542F0080CCA8524049B8ED /* 03-11-銀行專戶收支公告與移交檢核.heic */; };
+		3E4F9C72DED4EBFEAE9EA7E7 /* 05-22-清潔維護現場管理委員會成立檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 63561F350D04F233A5BE4C57 /* 05-22-清潔維護現場管理委員會成立檢核.heic */; };
+		3EBA47968AE3EB2E54DD0C8D /* ResourceJPEG.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF853EB41C49B55210158BBA /* ResourceJPEG.swift */; };
+		3EC0964FAAC85DAD4BFB75FB /* 05-20-文件櫃管理委員會職務檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = D8EBD43C9D1AFB3D36E16202 /* 05-20-文件櫃管理委員會職務檢核.heic */; };
+		3F072F19D0D9283CA7B56F6A /* 01-21-住戶門口住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9361D6644E02026DDDE8E6AD /* 01-21-住戶門口住戶義務總覽檢核.heic */; };
+		3FF3220EFF38D3DF20713B36 /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5EC35AF4370B3B60F6373 /* ArticleData.swift */; };
+		4120D3FCAB25457E598E9327 /* 05-37-住戶服務櫃台管理委員會成立檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7414F0DE14782D7EB600C588 /* 05-37-住戶服務櫃台管理委員會成立檢核.heic */; };
+		423785A3AEF3A1B72C121179 /* 04-42-會議室繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 77365B51E64A7C526F5FA2F2 /* 04-42-會議室繼受人文件閱覽檢核.heic */; };
+		428A99E1FD22B79724EAD6A2 /* 04-43-會議室區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 43DCD39803C5492B98ED7C30 /* 04-43-會議室區分所有權人會議召集檢核.heic */; };
+		42B2AD15F7492DEAFCE725B4 /* 08-17-證據照片牆三千至一萬五罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6C2BDB63F204B98A1916EA31 /* 08-17-證據照片牆三千至一萬五罰鍰檢核.heic */; };
+		4415929D9402D99AAE223A80 /* 06-25-值勤櫃台管理維護公司許可檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 277718E10316A13A6FAACA08 /* 06-25-值勤櫃台管理維護公司許可檢核.heic */; };
+		455C4D1FFE4034D1A1988AE1 /* 05-09-管委會辦公桌文件閱覽不得拒絕檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 738C27370B82F0C2D2CAE540 /* 05-09-管委會辦公桌文件閱覽不得拒絕檢核.heic */; };
+		45ACC726BD6FED1B2DBEDED4 /* 03-25-電梯維修公共基金來源檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = C072558B132FA8D9C7E6E5C3 /* 03-25-電梯維修公共基金來源檢核.heic */; };
+		465EE8A4774134DA0F0BBF6F /* 02-13-樓梯間共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 21BCDF6632D1805BABB0888E /* 02-13-樓梯間共用部分不得約定專用檢核.heic */; };
+		4927A869A068BC507AE04DE6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458BC3246CA534573388C1E1 /* SearchView.swift */; };
+		497EA53A052D8212FD34898D /* 05-27-公共安全巡檢管理委員會成立檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 14FE2D4C6F7B792EB4BFAF91 /* 05-27-公共安全巡檢管理委員會成立檢核.heic */; };
+		4A504AB49C070481136457B8 /* 05-39-住戶服務櫃台文件閱覽不得拒絕檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = EC007CBFDA9E921FFC9166B5 /* 05-39-住戶服務櫃台文件閱覽不得拒絕檢核.heic */; };
+		4A6818436613A75D35EBB4E3 /* 04-36-規約修訂桌規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = D7E28AE801F052CFD8E051D8 /* 04-36-規約修訂桌規約應載明事項檢核.heic */; };
+		4ACB5A3A19E2493D7AE5A0F1 /* 05-28-公共安全巡檢會議紀錄保存檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 4730578121BEE032D041712B /* 05-28-公共安全巡檢會議紀錄保存檢核.heic */; };
+		4C74F61E3960052AD5A0C836 /* 02-29-停車空間共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 950C07F9542A4726F0C80195 /* 02-29-停車空間共用部分不得約定專用檢核.heic */; };
+		4CFFEF4989B33D4B44662FC1 /* 08-12-裁處書桌面主管機關處理爭議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 87E4A654EBB1F303D9CE66A6 /* 08-12-裁處書桌面主管機關處理爭議檢核.heic */; };
+		4DD9FE63CDB2A5D5E53E0E6E /* 06-05-社區服務中心管理維護公司許可檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7DB04986881C972CA8C2F077 /* 06-05-社區服務中心管理維護公司許可檢核.heic */; };
+		4E4B390310F2F526C6A2F3C2 /* 06-16-機電巡檢管理服務人員禁止事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B005E3266794C4711F104EEC /* 06-16-機電巡檢管理服務人員禁止事項檢核.heic */; };
+		4F4472F321E96862A94188B5 /* 05-13-管理中心會議紀錄保存檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7C7ACBB866E2CDB25A15E26B /* 05-13-管理中心會議紀錄保存檢核.heic */; };
+		4F539D3F98ADF1FFF69CF876 /* 03-12-銀行專戶欠費催告與給付檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 2A7A739BF77A8D7B9E6E83B1 /* 03-12-銀行專戶欠費催告與給付檢核.heic */; };
+		4FA7BA04448C1630637EEE91 /* 04-04-表決權與委託出席.heic in Resources */ = {isa = PBXBuildFile; fileRef = F8CF099C7C066716DD5F7B36 /* 04-04-表決權與委託出席.heic */; };
+		50A9C94C4F58BD25F15BC743 /* 04-02-繼受人文件閱覽.heic in Resources */ = {isa = PBXBuildFile; fileRef = 37663B0E7E4D243CFE1F832C /* 04-02-繼受人文件閱覽.heic */; };
+		51AB06B6160349588D7E1C1D /* 03-22-欠費住戶公共基金不得扣押抵銷檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5855A240FDDDBC6D06CAFBBB /* 03-22-欠費住戶公共基金不得扣押抵銷檢核.heic */; };
+		53DB6940B00CE00E1140A6CE /* 06-17-服務契約桌管理維護公司許可檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 275442F0CA827BC60AEA986F /* 06-17-服務契約桌管理維護公司許可檢核.heic */; };
+		53EAD715A9670F53F8ECEDE6 /* 01-27-公共走廊住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 34F8B3C5A18D2433B5CF4186 /* 01-27-公共走廊住戶義務總覽檢核.heic */; };
+		54958A10D5C8AD8B2E4069FA /* 03-08-公告欄欠費催告與給付檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E6F4936B98E7C0FAF90EFE37 /* 03-08-公告欄欠費催告與給付檢核.heic */; };
+		54B434AB9EA0B4C639E862E1 /* 07-02-設施設備移交.heic in Resources */ = {isa = PBXBuildFile; fileRef = AD5275EA88003952E6C60820 /* 07-02-設施設備移交.heic */; };
+		54F6B198D086B4C729A416B1 /* 08-06-主管機關櫃台一千至五千罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 49F99852F2223BDA3ECF34FB /* 08-06-主管機關櫃台一千至五千罰鍰檢核.heic */; };
+		554DD8175E3CDB9880A159C7 /* 07-24-竣工圖說箱舊有公寓成立管理組織檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = EF6ED7B12BC821D1DD1F76CF /* 07-24-竣工圖說箱舊有公寓成立管理組織檢核.heic */; };
+		55E0CBDF1094628C0F23CE37 /* 04-08-公告欄區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = A4E4C7E73DD3CDE200EE1284 /* 04-08-公告欄區分所有權人會議召集檢核.heic */; };
+		57317F6C6D68D7CE1E5ED4AB /* 03-29-大樓外牆修繕公共基金來源檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 42383CFB1563A1BB43DE4D82 /* 03-29-大樓外牆修繕公共基金來源檢核.heic */; };
+		5809895DD2A0C85D85C45BE8 /* 06-14-機電巡檢委任管理服務人檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6328CD29726D615917F47B2C /* 06-14-機電巡檢委任管理服務人檢核.heic */; };
+		594AC6563173FF92BCF825DB /* 04-34-臨時會議表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AC0505839E9E0D8BD46833F4 /* 04-34-臨時會議表決權與委託出席檢核.heic */; };
+		5A55046F3D20068C6061B718 /* 05-16-文件櫃起造人召集第一次會議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 78CDC6775495E930F450AF39 /* 05-16-文件櫃起造人召集第一次會議檢核.heic */; };
+		5AD4B988370DAF5B3F9CF2DB /* 06-12-派駐人員管理服務人員禁止事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6203E625DF08BC4BCF5C3D9B /* 06-12-派駐人員管理服務人員禁止事項檢核.heic */; };
+		5AD740063520F467DACACC3D /* 03-01-公共基金來源.heic in Resources */ = {isa = PBXBuildFile; fileRef = 94AE1EFF91F492E666DAD3F7 /* 03-01-公共基金來源.heic */; };
+		5B9E4B6FFF1D7116A6C05830 /* 01-03-住戶義務總覽.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9835A6A01AFEDB10E7C7A7DD /* 01-03-住戶義務總覽.heic */; };
+		5C0C4E14D3A515BF1B996329 /* 07-17-老舊公寓梯間規約草約與圖說檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 42A8CECD1594695CE7617EC0 /* 07-17-老舊公寓梯間規約草約與圖說檢核.heic */; };
+		5C1AED187DCE3BB3627B1601 /* 04-26-重新召集會議規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D3678BA47ACC89C90ADFD /* 04-26-重新召集會議規約應載明事項檢核.heic */; };
+		5CD194D467D9A5B2421828F8 /* 05-25-清潔維護現場管理委員會職務檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = C0265B4F8D762A11DDC184AE /* 05-25-清潔維護現場管理委員會職務檢核.heic */; };
+		5D983DD409EDDD0A66F1C09D /* 06-06-社區服務中心委任管理服務人檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 82C2E665B8B8342D52039E10 /* 06-06-社區服務中心委任管理服務人檢核.heic */; };
+		5F30348DD1C144DF4DE03D41 /* 01-05-標準層區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6EA3E8F9DA5CFB7308D2AE3A /* 01-05-標準層區分所有權圖解檢核.heic */; };
+		607D8537C5BE960B996395C3 /* 01-16-梯廳公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF7E993361B1D69E96AED6 /* 01-16-梯廳公寓大廈定義圖解檢核.heic */; };
+		624FDB4DE15314B7BF99285E /* 07-21-竣工圖說箱規約草約與圖說檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1C6ECECF3E0F4798384B8A86 /* 07-21-竣工圖說箱規約草約與圖說檢核.heic */; };
+		63374D1F1A8EE0384B3CE11A /* 05-02-管理委員會成立.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5DAA9187D0E4D877F49B31A7 /* 05-02-管理委員會成立.heic */; };
+		639B079FD35B51508B592C6C /* 02-18-防火巷弄外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 320DD63CBFF6F22F79D4CE3D /* 02-18-防火巷弄外牆與樓頂平台限制檢核.heic */; };
+		648524D70B588C2DF98C1906 /* 02-10-共同走廊外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AE7EABAD6722C2584C58BFF9 /* 02-10-共同走廊外牆與樓頂平台限制檢核.heic */; };
+		6539380D8BE105E3C0DA480A /* 08-09-裁處書桌面三千至一萬五罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = DD3A1E8F4D12668A91D670ED /* 08-09-裁處書桌面三千至一萬五罰鍰檢核.heic */; };
+		6617C33C4ACAA2E32AB4FEE4 /* PreviewLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE65228766B2EB9D3F131C0 /* PreviewLockView.swift */; };
+		66897DF3479ABFAD10C2BB6E /* 05-10-管委會辦公桌管理委員會職務檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 37264515885D1C468B4497F0 /* 05-10-管委會辦公桌管理委員會職務檢核.heic */; };
+		6816ACC45EE9D2186FE3F5AC /* 04-19-住戶信箱表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 328981A64C080B4B1EB76AE9 /* 04-19-住戶信箱表決權與委託出席檢核.heic */; };
+		69B831A5C9DF9EA1A51548FD /* ProfessionalTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A270D02B697B610161DD5D5 /* ProfessionalTool.swift */; };
+		6A6628C9B13FA24A3F6A4188 /* 08-01-三千至一萬五罰鍰.heic in Resources */ = {isa = PBXBuildFile; fileRef = 53B1573E5AECF3EB4CD438D8 /* 08-01-三千至一萬五罰鍰.heic */; };
+		6AC41355AA0AC2B296BCE42E /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422EC77CCB6D0FF874593D5 /* ArticleDetailView.swift */; };
+		6B7CB51E9C7A7E16570F5DD6 /* 06-21-證照審查管理維護公司許可檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AD1F8117F959AFBE403641F2 /* 06-21-證照審查管理維護公司許可檢核.heic */; };
+		6E2A19EA567ECEC4A354C3B6 /* 04-33-臨時會議區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 760B0DD372904A4BE1EFA0CD /* 04-33-臨時會議區分所有權人會議召集檢核.heic */; };
+		6FA14839D5E7B617331C92E0 /* 08-08-主管機關櫃台主管機關處理爭議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E3A1E2219B987D45635B77FE /* 08-08-主管機關櫃台主管機關處理爭議檢核.heic */; };
+		72502AB07F1D10A20C987D7F /* 05-36-住戶服務櫃台起造人召集第一次會議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 78C25340A67DB347B40CD4EB /* 05-36-住戶服務櫃台起造人召集第一次會議檢核.heic */; };
+		73C9136D51103459C0AC2890 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22994F2DE530E1A9D8224D75 /* PaywallView.swift */; };
+		75E905154A76D3EF52289345 /* 01-13-社區基地公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 2D8CE755F6D1C90DFCE30C64 /* 01-13-社區基地公寓大廈定義圖解檢核.heic */; };
+		75FB55D91B164789092057F8 /* 08-07-主管機關櫃台四萬至二十萬罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0721EADD02A554213861424C /* 08-07-主管機關櫃台四萬至二十萬罰鍰檢核.heic */; };
+		775B9E1BB06DC025327CEC19 /* 02-17-防火巷弄共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 378274C11C06965490DC7C8B /* 02-17-防火巷弄共用部分不得約定專用檢核.heic */; };
+		79025F843B188FA9B049BA36 /* ProfessionalToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C60DFE7B541F9A8D51934B /* ProfessionalToolsView.swift */; };
+		796469BDF3D47BEA62F3A2F2 /* 03-07-公告欄收支公告與移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = DA01B928B36552578D2BF584 /* 03-07-公告欄收支公告與移交檢核.heic */; };
+		7B509665BAB44A2CB9F1B155 /* 08-10-裁處書桌面一千至五千罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 369C685B853F49413CA5F490 /* 08-10-裁處書桌面一千至五千罰鍰檢核.heic */; };
+		7DB47E76E2D51DCDF1D5B589 /* 01-19-住戶門口公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0C91D39E5F8AAAA7023FA5BE /* 01-19-住戶門口公寓大廈定義圖解檢核.heic */; };
+		7EAB8215F9015FEEB670FD31 /* 05-12-管理中心管理委員會成立檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B81CE1594162C4842034B29C /* 05-12-管理中心管理委員會成立檢核.heic */; };
+		7FE846034505C227C56D0D62 /* 04-31-臨時會議規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7E174603BE8A69AA0F3706A7 /* 04-31-臨時會議規約應載明事項檢核.heic */; };
+		80E716D5F32CB42528BCB4D7 /* 02-33-公共管線共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AC1A5F5E72AEF8F38DF49A49 /* 02-33-公共管線共用部分不得約定專用檢核.heic */; };
+		8191E07A9088EE1242C46D6A /* 02-08-樓頂平台防火巷弄堆置禁止檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6AD16084C55BDEF72C700C7E /* 02-08-樓頂平台防火巷弄堆置禁止檢核.heic */; };
+		819B70194D62F31D5C9F7DF7 /* 02-25-地下室共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 938F9D665A9CED2E29984A4B /* 02-25-地下室共用部分不得約定專用檢核.heic */; };
+		81CADD56A60DDCA9A29D3FAE /* 07-16-銷售中心舊有公寓成立管理組織檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 24543E563767EE13BC2D4A3C /* 07-16-銷售中心舊有公寓成立管理組織檢核.heic */; };
+		83D4B6D58A9AFF31951F78A9 /* 02-32-停車空間防火巷弄堆置禁止檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0817E3E2C8E9F5E8EF9B461D /* 02-32-停車空間防火巷弄堆置禁止檢核.heic */; };
+		83D6593A216B63A48100F830 /* 07-11-機電設備室共用部分不得讓售檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 21B90B34FEA03F75700CA347 /* 07-11-機電設備室共用部分不得讓售檢核.heic */; };
+		83EDD407CDFE9940299CCA16 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A888BC7B3AAA94AB193255C1 /* PrivacyInfo.xcprivacy */; };
+		8443796AF9D1047083C88A59 /* 04-18-住戶信箱區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E7CF43B7E96EDF661EA4CF29 /* 04-18-住戶信箱區分所有權人會議召集檢核.heic */; };
+		84B967C0CF4E94A6C536476D /* 04-20-住戶信箱決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = DBAE3BAFF20689FE3AE189BB /* 04-20-住戶信箱決議門檻圖解檢核.heic */; };
+		84E20E724273618DBE9C77FA /* 04-15-投票區決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B97EBB29332AF58FB6CD783D /* 04-15-投票區決議門檻圖解檢核.heic */; };
+		87416BA11EE3ABF0A59ADD82 /* 08-03-四萬至二十萬罰鍰.heic in Resources */ = {isa = PBXBuildFile; fileRef = 23B8E4A9AE9C458343EF3A62 /* 08-03-四萬至二十萬罰鍰.heic */; };
+		8A82E8D7A03225EF99E66496 /* IsoIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D535FB7F94C45895B6DE053 /* IsoIconsView.swift */; };
+		8AB65A3E38658849D3ED1B0A /* 05-19-文件櫃文件閱覽不得拒絕檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 53E7BB39FBECEA53386207DC /* 05-19-文件櫃文件閱覽不得拒絕檢核.heic */; };
+		8ADC302C3B9C76B707AED215 /* 01-12-屋頂平台住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1F818359DC8DC2552B94D5D8 /* 01-12-屋頂平台住戶義務總覽檢核.heic */; };
+		8DE9BF5B9140E94412250818 /* 06-18-服務契約桌委任管理服務人檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9829E86305C90F656883125D /* 06-18-服務契約桌委任管理服務人檢核.heic */; };
+		8F40F1587AF88261E0A636E6 /* 01-14-社區基地區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = FAC88C8ED98EF3EC63FB4040 /* 01-14-社區基地區分所有權圖解檢核.heic */; };
+		8F57AB5DA02926AFFE237ABD /* 01-04-標準層公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 38B5A2C0BB89BB1FC72C5EDF /* 01-04-標準層公寓大廈定義圖解檢核.heic */; };
+		9080DC21F9B20912B0E3D03F /* 08-04-主管機關處理爭議.heic in Resources */ = {isa = PBXBuildFile; fileRef = 594C229A413041441FC3A5C0 /* 08-04-主管機關處理爭議.heic */; };
+		913DA6C13A567A9499051C78 /* 02-01-共用部分不得約定專用.heic in Resources */ = {isa = PBXBuildFile; fileRef = AE50CBA2E06342270201BC58 /* 02-01-共用部分不得約定專用.heic */; };
+		9152CA97A49C1FDCD8288A3B /* 02-24-門廳防火巷弄堆置禁止檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 10D341F6327081DE8A7468CA /* 02-24-門廳防火巷弄堆置禁止檢核.heic */; };
+		9198DFF4968E36BA042DA524 /* 05-29-公共安全巡檢文件閱覽不得拒絕檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9E08A8B857293BCA994AAA1D /* 05-29-公共安全巡檢文件閱覽不得拒絕檢核.heic */; };
+		92C65DB76AC85F861345BC8E /* 03-21-欠費住戶公共基金來源檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 332B5D16174C8BA61480511F /* 03-21-欠費住戶公共基金來源檢核.heic */; };
+		93251A25747E20C15EFF6538 /* 05-18-文件櫃會議紀錄保存檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 35A073FADACC485D77356B08 /* 05-18-文件櫃會議紀錄保存檢核.heic */; };
+		95A412B75B74C74BD0CE1564 /* 03-04-欠費催告與給付.heic in Resources */ = {isa = PBXBuildFile; fileRef = E913EE200E71B30AA526D4F9 /* 03-04-欠費催告與給付.heic */; };
+		97A49648E7496C91CFBB5325 /* 07-22-竣工圖說箱設施設備移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = CDAD466E3F7465A0F0D712AB /* 07-22-竣工圖說箱設施設備移交檢核.heic */; };
+		97E6D88DD54D2083CF366206 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = ED329AC9FBEAF12E39C6A3B7 /* Configuration.storekit */; };
+		987E9A5BB326321AB5827569 /* 02-15-樓梯間共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 253568BAC50AA3E2B4D2D26A /* 02-15-樓梯間共用部分修繕分工檢核.heic */; };
+		98BD62283D89563DD4B2D8A9 /* 03-23-欠費住戶收支公告與移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = FBE4AFEF15B15400742005A8 /* 03-23-欠費住戶收支公告與移交檢核.heic */; };
+		98E30177DC182E2141F9BF02 /* CondoChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A0E0F48729EBFA4DA3A240 /* CondoChecklistView.swift */; };
+		9A909C7750444C66B62A5B5A /* 03-28-電梯維修欠費催告與給付檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = C29613411D9FBBEB3B832468 /* 03-28-電梯維修欠費催告與給付檢核.heic */; };
+		9AC05267FD8EA956DB95128F /* 04-27-重新召集會議繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1808E023F0E0BFC7D5338B95 /* 04-27-重新召集會議繼受人文件閱覽檢核.heic */; };
+		9B4ACF2E485D382DEC7A33FD /* 06-19-服務契約桌管理維護公司執業規範檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7AA303E9691DC39B5F8CAD29 /* 06-19-服務契約桌管理維護公司執業規範檢核.heic */; };
+		9C736F00B3860584372A5982 /* 05-14-管理中心文件閱覽不得拒絕檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = A60E3F522F2207AC9F95BF6B /* 05-14-管理中心文件閱覽不得拒絕檢核.heic */; };
+		9CF807FEB4D2B789A6D075F7 /* 07-07-圖說交接桌共用部分不得讓售檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AD917BC8FF852048A906BFF6 /* 07-07-圖說交接桌共用部分不得讓售檢核.heic */; };
+		9D9217DCB3FF922933834B66 /* 02-26-地下室外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7E1939AFBD32660FAB27CDBC /* 02-26-地下室外牆與樓頂平台限制檢核.heic */; };
+		9DBDAE950CF0728F739DC041 /* 06-03-管理維護公司執業規範.heic in Resources */ = {isa = PBXBuildFile; fileRef = 086314926EE92D54C7ECCD09 /* 06-03-管理維護公司執業規範.heic */; };
+		9E1EA11DD50F84798CF4B942 /* 02-22-門廳外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6B7890365E77B6F5ED164477 /* 02-22-門廳外牆與樓頂平台限制檢核.heic */; };
+		9E2197877FCD1D77C106B068 /* 01-06-標準層住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 99F0C6E51026DAB40C0BBBBE /* 01-06-標準層住戶義務總覽檢核.heic */; };
+		9E273FD19B51D7CB1D4A15F3 /* 04-25-線上通知板決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 540BED893669DB98037E7BB6 /* 04-25-線上通知板決議門檻圖解檢核.heic */; };
+		9F2229E35E129716C9FC5226 /* 04-10-公告欄決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5F83EA1BA2EC57EC2A229488 /* 04-10-公告欄決議門檻圖解檢核.heic */; };
+		A06186D40327056B34284D39 /* 07-19-老舊公寓梯間共用部分不得讓售檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 12732C25AEC443A986739349 /* 07-19-老舊公寓梯間共用部分不得讓售檢核.heic */; };
+		A204D4AB43F4828853052EBF /* 08-14-調處會議一千至五千罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 98E8337053C09081EF5B056F /* 08-14-調處會議一千至五千罰鍰檢核.heic */; };
+		A333F93E351F1EB4C589D1E3 /* 07-05-圖說交接桌規約草約與圖說檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E89D3C03B9897E20523C5031 /* 07-05-圖說交接桌規約草約與圖說檢核.heic */; };
+		A4BC92DF090F5A9BD5F316E4 /* 08-13-調處會議三千至一萬五罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 14B39A8CBFCEB1A2C84AF0BA /* 08-13-調處會議三千至一萬五罰鍰檢核.heic */; };
+		A58AF93D5D6C882B57D1FA5C /* 02-21-門廳共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AB29243E04D97AD82D4EF /* 02-21-門廳共用部分不得約定專用檢核.heic */; };
+		A5B75D92841459FEC5CD8B9F /* 02-07-樓頂平台共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE6E656897734DDE5A8651 /* 02-07-樓頂平台共用部分修繕分工檢核.heic */; };
+		A7911A23649012379E0AC172 /* 01-08-地下停車層區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 94E704FF4DC71194CC535E9F /* 01-08-地下停車層區分所有權圖解檢核.heic */; };
+		A7EFB4FE73A3CB7DBD347D90 /* 04-37-規約修訂桌繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 37D9880056F8882C3B400FD3 /* 04-37-規約修訂桌繼受人文件閱覽檢核.heic */; };
+		A818C6DB18CDA31D277D21DF /* 08-02-一千至五千罰鍰.heic in Resources */ = {isa = PBXBuildFile; fileRef = 30B49E44547B8638A72A9CD2 /* 08-02-一千至五千罰鍰.heic */; };
+		AB07973C9309285659BAF564 /* 03-26-電梯維修公共基金不得扣押抵銷檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5F598124BF934AA2EE38EA3A /* 03-26-電梯維修公共基金不得扣押抵銷檢核.heic */; };
+		ADC200965059F47B7E14C0DF /* 06-01-管理維護公司許可.heic in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB184889A8ACE4100FE54B /* 06-01-管理維護公司許可.heic */; };
+		AF918792945216C13B83DFC2 /* 02-03-共用部分修繕分工.heic in Resources */ = {isa = PBXBuildFile; fileRef = 75AE92357331B40A9F715D2A /* 02-03-共用部分修繕分工.heic */; };
+		AFB07B847D15C423BCDD1AEC /* 05-11-管理中心起造人召集第一次會議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AEC87A8AFEAE03FAECD3CBF6 /* 05-11-管理中心起造人召集第一次會議檢核.heic */; };
+		B038C3ACA6276A5ED2457A48 /* ArticleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13183BA63300DD312625F24F /* ArticleStore.swift */; };
+		B163CC644C0BAA142B11D07D /* 01-25-公共走廊公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 961501C15F28EB23AA341A9D /* 01-25-公共走廊公寓大廈定義圖解檢核.heic */; };
+		B2343A8B83B51A4C12D8E640 /* 04-21-線上通知板規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7646ABB18ECE62767CC417A8 /* 04-21-線上通知板規約應載明事項檢核.heic */; };
+		B2CD384EAAD89A6AF3B7712C /* 04-30-重新召集會議決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9ACBCE5C0DD4B167835DE8CF /* 04-30-重新召集會議決議門檻圖解檢核.heic */; };
+		B30008B649FC4A884E005050 /* 04-35-臨時會議決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = EEDDBDC08BF53FCA58B7E9D3 /* 04-35-臨時會議決議門檻圖解檢核.heic */; };
+		B449A9F6253AC6FD543615EE /* 04-32-臨時會議繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B477FCCC451B3237D677C0CF /* 04-32-臨時會議繼受人文件閱覽檢核.heic */; };
+		B5C2BC2896924CCA7D2DC35F /* 07-18-老舊公寓梯間設施設備移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5418615C9CB85FE447E9B585 /* 07-18-老舊公寓梯間設施設備移交檢核.heic */; };
+		B664C7D7B7954239B4C4A750 /* 05-35-主任委員簽章管理委員會職務檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AF96C5FA25ACDA4DBD643E50 /* 05-35-主任委員簽章管理委員會職務檢核.heic */; };
+		B70196A2DD462EADA270AEF3 /* 08-19-證據照片牆四萬至二十萬罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = ABC52078F999641E80421F85 /* 08-19-證據照片牆四萬至二十萬罰鍰檢核.heic */; };
+		B770F1E6AA780CD442BB736C /* 06-22-證照審查委任管理服務人檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = C39EC39DA3B52834F378530D /* 06-22-證照審查委任管理服務人檢核.heic */; };
+		B78830B8A2582D0C87FAF0C0 /* 04-41-會議室規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E3EEF9B5F77D97D881E1AAF3 /* 04-41-會議室規約應載明事項檢核.heic */; };
+		B7E9E10BE36A0DBEB14F02D2 /* RegulatoryResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642AC9C6FC8B96A179E6DE1 /* RegulatoryResource.swift */; };
+		B7F5C01F17FC61AF67420CC9 /* 02-35-公共管線共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6F5247C1664DC0B30F88B6D9 /* 02-35-公共管線共用部分修繕分工檢核.heic */; };
+		B84D53C964CBC5BB30C9CC37 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C43F1F64041C3C6BFD8420 /* GalleryView.swift */; };
+		B89A9F61C586C3A1735AFBE8 /* 05-04-文件閱覽不得拒絕.heic in Resources */ = {isa = PBXBuildFile; fileRef = B0E588542FDC0EF635EC148B /* 05-04-文件閱覽不得拒絕.heic */; };
+		B8E0706E2B63E540195B84B8 /* 03-09-銀行專戶公共基金來源檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 560E610C04238122C52E0D99 /* 03-09-銀行專戶公共基金來源檢核.heic */; };
+		B963276F5368F46BEEF9EA42 /* 02-14-樓梯間外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 8CC980D6E329E75F8D1A29D4 /* 02-14-樓梯間外牆與樓頂平台限制檢核.heic */; };
+		BA863AAB7B96C731873DD879 /* 05-34-主任委員簽章文件閱覽不得拒絕檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3F5E2E7C428444A9AE22D48 /* 05-34-主任委員簽章文件閱覽不得拒絕檢核.heic */; };
+		BABBFE8DE0A9D65C917E5846 /* 07-03-共用部分不得讓售.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1773F00392F4A1489BC2DE1C /* 07-03-共用部分不得讓售.heic */; };
+		BB90349566B4E95A5B04E013 /* 06-24-證照審查管理服務人員禁止事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = C1E84B26B012F39811451D61 /* 06-24-證照審查管理服務人員禁止事項檢核.heic */; };
+		BCF76EB8AE9D84F1C2E1C6EA /* 05-40-住戶服務櫃台管理委員會職務檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0F04B87FC3C2E6336AE33C98 /* 05-40-住戶服務櫃台管理委員會職務檢核.heic */; };
+		BF33A7E675C74251DA5E658F /* BookmarkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CECD41BC88827B4DAE4440 /* BookmarkStore.swift */; };
+		BFBD53E72B772101F64E6A33 /* 07-09-機電設備室規約草約與圖說檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7BB3E7D3D42CD85A1B0E1D81 /* 07-09-機電設備室規約草約與圖說檢核.heic */; };
+		BFF61EC1BCC70DE97D28C994 /* CommercialUpdateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336C8AA73BEBD20FA5700E40 /* CommercialUpdateUITests.swift */; };
+		C05373FD2CE2D67CA45A81BD /* 07-20-老舊公寓梯間舊有公寓成立管理組織檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 53E748145B7013AAC03E11E9 /* 07-20-老舊公寓梯間舊有公寓成立管理組織檢核.heic */; };
+		C176E1FB875C0BA520EA401C /* 05-32-主任委員簽章管理委員會成立檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C8D9A8C2D4A17DEDE2019 /* 05-32-主任委員簽章管理委員會成立檢核.heic */; };
+		C4C0AA0C79C1A23027DBD9FF /* 01-18-梯廳住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 18157098047B34B74C5D22E0 /* 01-18-梯廳住戶義務總覽檢核.heic */; };
+		C5796902CB86290CFBBD7FF8 /* 03-19-管委會交接收支公告與移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 38C6AD69930B6E1B7ACE15A6 /* 03-19-管委會交接收支公告與移交檢核.heic */; };
+		C5AB0C85C6EC0F1D2E03B61F /* 06-23-證照審查管理維護公司執業規範檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0E2188A62BB29215F44262E3 /* 06-23-證照審查管理維護公司執業規範檢核.heic */; };
+		C5C2A7BDA355D8A98E37AF40 /* 04-23-線上通知板區分所有權人會議召集檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 962A5E5BEC693A121B9F340C /* 04-23-線上通知板區分所有權人會議召集檢核.heic */; };
+		C603810A47AF6547AF76F077 /* 01-26-公共走廊區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AD5FC1BA32C27977D7136F2E /* 01-26-公共走廊區分所有權圖解檢核.heic */; };
+		C7083686590B73513E99E142 /* 07-01-規約草約與圖說.heic in Resources */ = {isa = PBXBuildFile; fileRef = F63AC88C5986F47C4B761844 /* 07-01-規約草約與圖說.heic */; };
+		C81D7A2782008F2DED4DC4D4 /* 03-20-管委會交接欠費催告與給付檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 8162F88247D56733A0C89924 /* 03-20-管委會交接欠費催告與給付檢核.heic */; };
+		CACFBE3E5B7637F3BF0B8C81 /* 04-29-重新召集會議表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7D6B0AC254BFD2872BEEFD0A /* 04-29-重新召集會議表決權與委託出席檢核.heic */; };
+		CD69854795DEDBF3214D4E50 /* 04-40-規約修訂桌決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 3CD7ED91DE9BCA420DF3FC3E /* 04-40-規約修訂桌決議門檻圖解檢核.heic */; };
+		CEDFEE54E4B74BDD741AEB72 /* 02-05-樓頂平台共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = D8974FE00AFB364DC534D576 /* 02-05-樓頂平台共用部分不得約定專用檢核.heic */; };
+		CF9C41E1C2889EE4DD42BB57 /* 01-20-住戶門口區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 076144C34EE3380E458B26B2 /* 01-20-住戶門口區分所有權圖解檢核.heic */; };
+		D02B4835B7A4AA409B5EA3D1 /* 02-09-共同走廊共用部分不得約定專用檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = ADAA7A7EF0747AD88521183A /* 02-09-共同走廊共用部分不得約定專用檢核.heic */; };
+		D07F50AE050B3910972C61C5 /* 03-15-修繕現場收支公告與移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = F67D6044B940B16F3A9C5AB7 /* 03-15-修繕現場收支公告與移交檢核.heic */; };
+		D0D64345AB70997178CBAD2F /* 06-15-機電巡檢管理維護公司執業規範檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 06AC2C6DFDFCCCA9F05C2150 /* 06-15-機電巡檢管理維護公司執業規範檢核.heic */; };
+		D11246BE752867FD1A543639 /* 05-26-公共安全巡檢起造人召集第一次會議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 8E400F8C5752A9FA08AE5525 /* 05-26-公共安全巡檢起造人召集第一次會議檢核.heic */; };
+		D1169BDF898AF2E0DCD7A6D7 /* 07-14-銷售中心設施設備移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 5C8452C931E5921F099A0EF6 /* 07-14-銷售中心設施設備移交檢核.heic */; };
+		D13EA157EC6A2CE32CC33452 /* 07-15-銷售中心共用部分不得讓售檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 9B860A9B7D39A74D816432C7 /* 07-15-銷售中心共用部分不得讓售檢核.heic */; };
+		D21E142DAE91B1B798A1878D /* 02-20-防火巷弄通道堆置禁止檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = D8DD06CAA768E6A8B2002602 /* 02-20-防火巷弄通道堆置禁止檢核.heic */; };
+		D3E895C01480E36D2F1BC04F /* 04-24-線上通知板表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 642D7CD4C2D921839DC8D5BB /* 04-24-線上通知板表決權與委託出席檢核.heic */; };
+		D3EECAAA6E2AA6EACEA83F26 /* 01-28-管道間公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 6FDB96A96495B6B83DFDC78E /* 01-28-管道間公寓大廈定義圖解檢核.heic */; };
+		D410EBC9FAF710E9B93CCDB4 /* 02-28-地下室防火巷弄堆置禁止檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 371793AA6E69503D4554FDFB /* 02-28-地下室防火巷弄堆置禁止檢核.heic */; };
+		D610D4151663C88FF82C4D02 /* 01-07-地下停車層公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 34B3CCEA65317A72E50F68DC /* 01-07-地下停車層公寓大廈定義圖解檢核.heic */; };
+		D6359AEB71495CA72614A6DF /* 03-13-修繕現場公共基金來源檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B77BCAF0E688721271D6B77C /* 03-13-修繕現場公共基金來源檢核.heic */; };
+		D667CCE9C65410B2E4D7E1DE /* 06-09-派駐人員管理維護公司許可檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 7F75CE45D521D354AEB737C9 /* 06-09-派駐人員管理維護公司許可檢核.heic */; };
+		D77FB6325348E97A3F48B936 /* 02-04-防火巷弄堆置禁止.heic in Resources */ = {isa = PBXBuildFile; fileRef = A7226565E9EAE99729E1754B /* 02-04-防火巷弄堆置禁止.heic */; };
+		D8079E30A5E1DBFDC5633C14 /* 05-33-主任委員簽章會議紀錄保存檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E0A4FD39F22AF60E78992 /* 05-33-主任委員簽章會議紀錄保存檢核.heic */; };
+		D8B452366844F6B8193097BA /* 04-44-會議室表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 3059E065D3FB8821927AA1A3 /* 04-44-會議室表決權與委託出席檢核.heic */; };
+		D9BBE8E7532E2064C29CB987 /* 03-03-收支公告與移交.heic in Resources */ = {isa = PBXBuildFile; fileRef = 54CADBE5F03BC6F4A95D6D56 /* 03-03-收支公告與移交.heic */; };
+		D9C40F36419EAABED3461590 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003055307BD5E359B04EA6B /* AppTheme.swift */; };
+		DC4F5A50D88EFE333D998F52 /* 01-17-梯廳區分所有權圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 60D77B0AB4919EDF87DA146E /* 01-17-梯廳區分所有權圖解檢核.heic */; };
+		DE5318694BD3CB3C16401636 /* 04-01-規約應載明事項.heic in Resources */ = {isa = PBXBuildFile; fileRef = 45001FE43CFF7F276EF650C8 /* 04-01-規約應載明事項.heic */; };
+		DE5DE900EAEEADA02FD2710D /* 03-24-欠費住戶欠費催告與給付檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 67382A49447B4570DB3196BC /* 03-24-欠費住戶欠費催告與給付檢核.heic */; };
+		DEEFD99B19C4E0C6D833048D /* 02-12-共同走廊防火巷弄堆置禁止檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AD1EA83B8885AF1C0BD3D053 /* 02-12-共同走廊防火巷弄堆置禁止檢核.heic */; };
+		DF522185F661688AB27E46BA /* 04-16-住戶信箱規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 07C192F92B3C42536A01A231 /* 04-16-住戶信箱規約應載明事項檢核.heic */; };
+		DF622EE9BA5C46891C50F5EF /* 07-10-機電設備室設施設備移交檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = BE3E3A16812540A2ECC7D523 /* 07-10-機電設備室設施設備移交檢核.heic */; };
+		E09DA0BB23230710CEF47C44 /* 02-11-共同走廊共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D914B559ABB69D75096E /* 02-11-共同走廊共用部分修繕分工檢核.heic */; };
+		E141D5BB5852569E3D561B85 /* 03-30-大樓外牆修繕公共基金不得扣押抵銷檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B2C84A9FF3CBA15C478E1201 /* 03-30-大樓外牆修繕公共基金不得扣押抵銷檢核.heic */; };
+		E1790593A3785C7C0E6D9C94 /* 03-16-修繕現場欠費催告與給付檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AD621D34DC97F89F8B982898 /* 03-16-修繕現場欠費催告與給付檢核.heic */; };
+		E17B23A11E066019E63A49D0 /* 07-25-公共設施移交規約草約與圖說檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = FBF7429234EA479F90BFD946 /* 07-25-公共設施移交規約草約與圖說檢核.heic */; };
+		E1DDD30D3B331BEE2DF2C3FF /* 02-34-公共管線外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0934D2F53E1E92369F953373 /* 02-34-公共管線外牆與樓頂平台限制檢核.heic */; };
+		E251ED6BE8F774A9A0D81343 /* 05-21-清潔維護現場起造人召集第一次會議檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0DFC8B261DCCBE4E989426BE /* 05-21-清潔維護現場起造人召集第一次會議檢核.heic */; };
+		E6AEB3FCFA34D6125366EC2A /* 02-19-防火巷弄共用部分修繕分工檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = A5995550888BC774892B02C6 /* 02-19-防火巷弄共用部分修繕分工檢核.heic */; };
+		E70C64CA0F7C515F8F005D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D391A032C12AA71EAE904AD3 /* Assets.xcassets */; };
+		E8E09EAA34CDF1C143EF2D87 /* 04-14-投票區表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0940F41724AC6040646E52B9 /* 04-14-投票區表決權與委託出席檢核.heic */; };
+		E939ED3FD1812CF74988340C /* 06-13-機電巡檢管理維護公司許可檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = B203BA1B7E5D188C26A723A7 /* 06-13-機電巡檢管理維護公司許可檢核.heic */; };
+		EAE654D859D68A53BD7016C7 /* 04-22-線上通知板繼受人文件閱覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = FB3C9C8458BF7C24C314008E /* 04-22-線上通知板繼受人文件閱覽檢核.heic */; };
+		EB0BFF002ABCFFE754A541FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF981501ED186FCDE8F93E17 /* Constants.swift */; };
+		EB9622E9B6A06883A7F2F4BE /* 07-13-銷售中心規約草約與圖說檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AFD3A68D62CF3BC899A40090 /* 07-13-銷售中心規約草約與圖說檢核.heic */; };
+		EB9C226F0642F0C271B65156 /* 03-18-管委會交接公共基金不得扣押抵銷檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = C394BC9F1CE2757E93A2C917 /* 03-18-管委會交接公共基金不得扣押抵銷檢核.heic */; };
+		EBD1296DE1C393971B085C51 /* 03-14-修繕現場公共基金不得扣押抵銷檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = F0EAD8EF54C1B0C24A8FB84B /* 03-14-修繕現場公共基金不得扣押抵銷檢核.heic */; };
+		EE30E49D73B093D6F3A5D81E /* 05-23-清潔維護現場會議紀錄保存檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 340DAF88AAD0F6F5FA996A02 /* 05-23-清潔維護現場會議紀錄保存檢核.heic */; };
+		EF20729C652B48FCF90C9D2F /* 08-05-主管機關櫃台三千至一萬五罰鍰檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = AEA214C8FF5867FD4A1649F1 /* 08-05-主管機關櫃台三千至一萬五罰鍰檢核.heic */; };
+		F061B246925FDF825187895D /* 05-01-起造人召集第一次會議.heic in Resources */ = {isa = PBXBuildFile; fileRef = C7D5A119AE09F893F790C287 /* 05-01-起造人召集第一次會議.heic */; };
+		F6886DC1EEA054CD52C1FDBE /* 01-10-屋頂平台公寓大廈定義圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E9BB510D6CBECBDC1DAD9CFB /* 01-10-屋頂平台公寓大廈定義圖解檢核.heic */; };
+		F6FADDEC8805BE2B962CA735 /* 05-08-管委會辦公桌會議紀錄保存檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = D9733D5FE5AA4651A1762A42 /* 05-08-管委會辦公桌會議紀錄保存檢核.heic */; };
+		F75A683AB16E47220524B762 /* 02-02-外牆與樓頂平台限制.heic in Resources */ = {isa = PBXBuildFile; fileRef = 3CD1472A0AA23CFA363DDEE0 /* 02-02-外牆與樓頂平台限制.heic */; };
+		F7C263DE2CD21FA8A0E151A3 /* 04-45-會議室決議門檻圖解檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = ABAB40C89F0164A65BFA9EC0 /* 04-45-會議室決議門檻圖解檢核.heic */; };
+		F863B5022A966E59E5CCACD9 /* 04-11-投票區規約應載明事項檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEA1E42813C6BC2CB16E9B /* 04-11-投票區規約應載明事項檢核.heic */; };
+		F8F8A0182B7BD7C151FBF337 /* 04-03-區分所有權人會議召集.heic in Resources */ = {isa = PBXBuildFile; fileRef = 79164C4E5C8827FE05EA30B4 /* 04-03-區分所有權人會議召集.heic */; };
+		FA90D794798D6828185A0B69 /* 06-10-派駐人員委任管理服務人檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E519E526EA4F1A3C4D87203D /* 06-10-派駐人員委任管理服務人檢核.heic */; };
+		FAC22463C284482D96FD6710 /* 01-30-管道間住戶義務總覽檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = FEB13639C74D9524C419BEB5 /* 01-30-管道間住戶義務總覽檢核.heic */; };
+		FB4B81C80DFB2B99BD47974E /* 06-07-社區服務中心管理維護公司執業規範檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = E8897EA3CEDA43D6EDEEEE80 /* 06-07-社區服務中心管理維護公司執業規範檢核.heic */; };
+		FC2ADAFB8ED4AC3FCE371239 /* 02-30-停車空間外牆與樓頂平台限制檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 75D2EC84AC99151294DA2AC9 /* 02-30-停車空間外牆與樓頂平台限制檢核.heic */; };
+		FC60CD8A8980DDAFD67E6631 /* 05-07-管委會辦公桌管理委員會成立檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = EF7B4465BC312665583B9EF8 /* 05-07-管委會辦公桌管理委員會成立檢核.heic */; };
+		FEDCA80D0FE09C5634D7CD0E /* 04-09-公告欄表決權與委託出席檢核.heic in Resources */ = {isa = PBXBuildFile; fileRef = 52CAC6675C46F8F3ED147208 /* 04-09-公告欄表決權與委託出席檢核.heic */; };
+		FF803DF701325DA5202138E0 /* IsoHouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340453CFE5B0B45CEB4C49AD /* IsoHouseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BABC4753564BF23E7A2BC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E57FF1B2BAC41663E98939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32329C6C1059B9A9833DF52;
+			remoteInfo = TaiwanCondoLaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0422EC77CCB6D0FF874593D5 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		04B451EE34D80D7884D69C37 /* 04-12-投票區繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-12-投票區繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		06AC2C6DFDFCCCA9F05C2150 /* 06-15-機電巡檢管理維護公司執業規範檢核.heic */ = {isa = PBXFileReference; path = "06-15-機電巡檢管理維護公司執業規範檢核.heic"; sourceTree = "<group>"; };
+		0721EADD02A554213861424C /* 08-07-主管機關櫃台四萬至二十萬罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-07-主管機關櫃台四萬至二十萬罰鍰檢核.heic"; sourceTree = "<group>"; };
+		076144C34EE3380E458B26B2 /* 01-20-住戶門口區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-20-住戶門口區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		07C192F92B3C42536A01A231 /* 04-16-住戶信箱規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-16-住戶信箱規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		0817E3E2C8E9F5E8EF9B461D /* 02-32-停車空間防火巷弄堆置禁止檢核.heic */ = {isa = PBXFileReference; path = "02-32-停車空間防火巷弄堆置禁止檢核.heic"; sourceTree = "<group>"; };
+		086314926EE92D54C7ECCD09 /* 06-03-管理維護公司執業規範.heic */ = {isa = PBXFileReference; path = "06-03-管理維護公司執業規範.heic"; sourceTree = "<group>"; };
+		0934D2F53E1E92369F953373 /* 02-34-公共管線外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-34-公共管線外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		0940F41724AC6040646E52B9 /* 04-14-投票區表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-14-投票區表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		0B52FE83DB666EB3496FEF1F /* 04-39-規約修訂桌表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-39-規約修訂桌表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		0C91D39E5F8AAAA7023FA5BE /* 01-19-住戶門口公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-19-住戶門口公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		0DD7352A22A0B0239A593C12 /* 01-02-區分所有權圖解.heic */ = {isa = PBXFileReference; path = "01-02-區分所有權圖解.heic"; sourceTree = "<group>"; };
+		0DFC8B261DCCBE4E989426BE /* 05-21-清潔維護現場起造人召集第一次會議檢核.heic */ = {isa = PBXFileReference; path = "05-21-清潔維護現場起造人召集第一次會議檢核.heic"; sourceTree = "<group>"; };
+		0DFEA1E42813C6BC2CB16E9B /* 04-11-投票區規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-11-投票區規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		0E2188A62BB29215F44262E3 /* 06-23-證照審查管理維護公司執業規範檢核.heic */ = {isa = PBXFileReference; path = "06-23-證照審查管理維護公司執業規範檢核.heic"; sourceTree = "<group>"; };
+		0F04B87FC3C2E6336AE33C98 /* 05-40-住戶服務櫃台管理委員會職務檢核.heic */ = {isa = PBXFileReference; path = "05-40-住戶服務櫃台管理委員會職務檢核.heic"; sourceTree = "<group>"; };
+		10D341F6327081DE8A7468CA /* 02-24-門廳防火巷弄堆置禁止檢核.heic */ = {isa = PBXFileReference; path = "02-24-門廳防火巷弄堆置禁止檢核.heic"; sourceTree = "<group>"; };
+		126C80515384B763263E0421 /* 08-16-調處會議主管機關處理爭議檢核.heic */ = {isa = PBXFileReference; path = "08-16-調處會議主管機關處理爭議檢核.heic"; sourceTree = "<group>"; };
+		12732C25AEC443A986739349 /* 07-19-老舊公寓梯間共用部分不得讓售檢核.heic */ = {isa = PBXFileReference; path = "07-19-老舊公寓梯間共用部分不得讓售檢核.heic"; sourceTree = "<group>"; };
+		13183BA63300DD312625F24F /* ArticleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleStore.swift; sourceTree = "<group>"; };
+		143086BF6B922E1EC212716C /* 01-22-機電室公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-22-機電室公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		14B39A8CBFCEB1A2C84AF0BA /* 08-13-調處會議三千至一萬五罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-13-調處會議三千至一萬五罰鍰檢核.heic"; sourceTree = "<group>"; };
+		14FE2D4C6F7B792EB4BFAF91 /* 05-27-公共安全巡檢管理委員會成立檢核.heic */ = {isa = PBXFileReference; path = "05-27-公共安全巡檢管理委員會成立檢核.heic"; sourceTree = "<group>"; };
+		16F7F149A77B904EB1F770F6 /* 03-06-公告欄公共基金不得扣押抵銷檢核.heic */ = {isa = PBXFileReference; path = "03-06-公告欄公共基金不得扣押抵銷檢核.heic"; sourceTree = "<group>"; };
+		1773F00392F4A1489BC2DE1C /* 07-03-共用部分不得讓售.heic */ = {isa = PBXFileReference; path = "07-03-共用部分不得讓售.heic"; sourceTree = "<group>"; };
+		17FAEE3AE9725D0F1B5F6721 /* 07-08-圖說交接桌舊有公寓成立管理組織檢核.heic */ = {isa = PBXFileReference; path = "07-08-圖說交接桌舊有公寓成立管理組織檢核.heic"; sourceTree = "<group>"; };
+		1808E023F0E0BFC7D5338B95 /* 04-27-重新召集會議繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-27-重新召集會議繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		18157098047B34B74C5D22E0 /* 01-18-梯廳住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-18-梯廳住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		1BE5EC35AF4370B3B60F6373 /* ArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleData.swift; sourceTree = "<group>"; };
+		1C6ECECF3E0F4798384B8A86 /* 07-21-竣工圖說箱規約草約與圖說檢核.heic */ = {isa = PBXFileReference; path = "07-21-竣工圖說箱規約草約與圖說檢核.heic"; sourceTree = "<group>"; };
+		1F11D914B559ABB69D75096E /* 02-11-共同走廊共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-11-共同走廊共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		1F818359DC8DC2552B94D5D8 /* 01-12-屋頂平台住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-12-屋頂平台住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		207319F0F778819D1844F4C4 /* 07-04-舊有公寓成立管理組織.heic */ = {isa = PBXFileReference; path = "07-04-舊有公寓成立管理組織.heic"; sourceTree = "<group>"; };
+		21B90B34FEA03F75700CA347 /* 07-11-機電設備室共用部分不得讓售檢核.heic */ = {isa = PBXFileReference; path = "07-11-機電設備室共用部分不得讓售檢核.heic"; sourceTree = "<group>"; };
+		21BCDF6632D1805BABB0888E /* 02-13-樓梯間共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-13-樓梯間共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		22994F2DE530E1A9D8224D75 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		23B8E4A9AE9C458343EF3A62 /* 08-03-四萬至二十萬罰鍰.heic */ = {isa = PBXFileReference; path = "08-03-四萬至二十萬罰鍰.heic"; sourceTree = "<group>"; };
+		24543E563767EE13BC2D4A3C /* 07-16-銷售中心舊有公寓成立管理組織檢核.heic */ = {isa = PBXFileReference; path = "07-16-銷售中心舊有公寓成立管理組織檢核.heic"; sourceTree = "<group>"; };
+		253568BAC50AA3E2B4D2D26A /* 02-15-樓梯間共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-15-樓梯間共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		254E607ADCB43463C0D02E56 /* 04-28-重新召集會議區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-28-重新召集會議區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		25FBF648E0449B8C3ED796F3 /* CondoQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondoQuizView.swift; sourceTree = "<group>"; };
+		275442F0CA827BC60AEA986F /* 06-17-服務契約桌管理維護公司許可檢核.heic */ = {isa = PBXFileReference; path = "06-17-服務契約桌管理維護公司許可檢核.heic"; sourceTree = "<group>"; };
+		277718E10316A13A6FAACA08 /* 06-25-值勤櫃台管理維護公司許可檢核.heic */ = {isa = PBXFileReference; path = "06-25-值勤櫃台管理維護公司許可檢核.heic"; sourceTree = "<group>"; };
+		27CECD41BC88827B4DAE4440 /* BookmarkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkStore.swift; sourceTree = "<group>"; };
+		291656D3995720A133A02F3E /* 05-15-管理中心管理委員會職務檢核.heic */ = {isa = PBXFileReference; path = "05-15-管理中心管理委員會職務檢核.heic"; sourceTree = "<group>"; };
+		298F6120771646B09D685C9B /* 06-04-管理服務人員禁止事項.heic */ = {isa = PBXFileReference; path = "06-04-管理服務人員禁止事項.heic"; sourceTree = "<group>"; };
+		2A7A739BF77A8D7B9E6E83B1 /* 03-12-銀行專戶欠費催告與給付檢核.heic */ = {isa = PBXFileReference; path = "03-12-銀行專戶欠費催告與給付檢核.heic"; sourceTree = "<group>"; };
+		2CDEFB5C2FBB2250EB059DA0 /* 01-24-機電室住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-24-機電室住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		2D8CE755F6D1C90DFCE30C64 /* 01-13-社區基地公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-13-社區基地公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		3059E065D3FB8821927AA1A3 /* 04-44-會議室表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-44-會議室表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		30B49E44547B8638A72A9CD2 /* 08-02-一千至五千罰鍰.heic */ = {isa = PBXFileReference; path = "08-02-一千至五千罰鍰.heic"; sourceTree = "<group>"; };
+		320DD63CBFF6F22F79D4CE3D /* 02-18-防火巷弄外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-18-防火巷弄外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		328981A64C080B4B1EB76AE9 /* 04-19-住戶信箱表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-19-住戶信箱表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		328C1739646050A6F17C59D6 /* TaiwanCondoLaw.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TaiwanCondoLaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332B5D16174C8BA61480511F /* 03-21-欠費住戶公共基金來源檢核.heic */ = {isa = PBXFileReference; path = "03-21-欠費住戶公共基金來源檢核.heic"; sourceTree = "<group>"; };
+		336C8AA73BEBD20FA5700E40 /* CommercialUpdateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialUpdateUITests.swift; sourceTree = "<group>"; };
+		340453CFE5B0B45CEB4C49AD /* IsoHouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsoHouseView.swift; sourceTree = "<group>"; };
+		340DAF88AAD0F6F5FA996A02 /* 05-23-清潔維護現場會議紀錄保存檢核.heic */ = {isa = PBXFileReference; path = "05-23-清潔維護現場會議紀錄保存檢核.heic"; sourceTree = "<group>"; };
+		34B3CCEA65317A72E50F68DC /* 01-07-地下停車層公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-07-地下停車層公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		34F8B3C5A18D2433B5CF4186 /* 01-27-公共走廊住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-27-公共走廊住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		35A073FADACC485D77356B08 /* 05-18-文件櫃會議紀錄保存檢核.heic */ = {isa = PBXFileReference; path = "05-18-文件櫃會議紀錄保存檢核.heic"; sourceTree = "<group>"; };
+		369C685B853F49413CA5F490 /* 08-10-裁處書桌面一千至五千罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-10-裁處書桌面一千至五千罰鍰檢核.heic"; sourceTree = "<group>"; };
+		371793AA6E69503D4554FDFB /* 02-28-地下室防火巷弄堆置禁止檢核.heic */ = {isa = PBXFileReference; path = "02-28-地下室防火巷弄堆置禁止檢核.heic"; sourceTree = "<group>"; };
+		37264515885D1C468B4497F0 /* 05-10-管委會辦公桌管理委員會職務檢核.heic */ = {isa = PBXFileReference; path = "05-10-管委會辦公桌管理委員會職務檢核.heic"; sourceTree = "<group>"; };
+		37663B0E7E4D243CFE1F832C /* 04-02-繼受人文件閱覽.heic */ = {isa = PBXFileReference; path = "04-02-繼受人文件閱覽.heic"; sourceTree = "<group>"; };
+		378274C11C06965490DC7C8B /* 02-17-防火巷弄共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-17-防火巷弄共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		37D9880056F8882C3B400FD3 /* 04-37-規約修訂桌繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-37-規約修訂桌繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		38B5A2C0BB89BB1FC72C5EDF /* 01-04-標準層公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-04-標準層公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		38C6AD69930B6E1B7ACE15A6 /* 03-19-管委會交接收支公告與移交檢核.heic */ = {isa = PBXFileReference; path = "03-19-管委會交接收支公告與移交檢核.heic"; sourceTree = "<group>"; };
+		3A270D02B697B610161DD5D5 /* ProfessionalTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalTool.swift; sourceTree = "<group>"; };
+		3CCB184889A8ACE4100FE54B /* 06-01-管理維護公司許可.heic */ = {isa = PBXFileReference; path = "06-01-管理維護公司許可.heic"; sourceTree = "<group>"; };
+		3CD1472A0AA23CFA363DDEE0 /* 02-02-外牆與樓頂平台限制.heic */ = {isa = PBXFileReference; path = "02-02-外牆與樓頂平台限制.heic"; sourceTree = "<group>"; };
+		3CD7ED91DE9BCA420DF3FC3E /* 04-40-規約修訂桌決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-40-規約修訂桌決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		4003055307BD5E359B04EA6B /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		42383CFB1563A1BB43DE4D82 /* 03-29-大樓外牆修繕公共基金來源檢核.heic */ = {isa = PBXFileReference; path = "03-29-大樓外牆修繕公共基金來源檢核.heic"; sourceTree = "<group>"; };
+		42A8CECD1594695CE7617EC0 /* 07-17-老舊公寓梯間規約草約與圖說檢核.heic */ = {isa = PBXFileReference; path = "07-17-老舊公寓梯間規約草約與圖說檢核.heic"; sourceTree = "<group>"; };
+		43DCD39803C5492B98ED7C30 /* 04-43-會議室區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-43-會議室區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		44AAA6E47991C85DF58E558E /* 01-11-屋頂平台區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-11-屋頂平台區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		45001FE43CFF7F276EF650C8 /* 04-01-規約應載明事項.heic */ = {isa = PBXFileReference; path = "04-01-規約應載明事項.heic"; sourceTree = "<group>"; };
+		458BC3246CA534573388C1E1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4730578121BEE032D041712B /* 05-28-公共安全巡檢會議紀錄保存檢核.heic */ = {isa = PBXFileReference; path = "05-28-公共安全巡檢會議紀錄保存檢核.heic"; sourceTree = "<group>"; };
+		47BAD2B1FEC24CB460EF3CA4 /* 04-05-決議門檻圖解.heic */ = {isa = PBXFileReference; path = "04-05-決議門檻圖解.heic"; sourceTree = "<group>"; };
+		47C43F1F64041C3C6BFD8420 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		49F99852F2223BDA3ECF34FB /* 08-06-主管機關櫃台一千至五千罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-06-主管機關櫃台一千至五千罰鍰檢核.heic"; sourceTree = "<group>"; };
+		4A6E0A4FD39F22AF60E78992 /* 05-33-主任委員簽章會議紀錄保存檢核.heic */ = {isa = PBXFileReference; path = "05-33-主任委員簽章會議紀錄保存檢核.heic"; sourceTree = "<group>"; };
+		4A82C9AF7F7FC72A7D6AB89B /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		4EEE6E656897734DDE5A8651 /* 02-07-樓頂平台共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-07-樓頂平台共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		5215D9549D779BB41C2EBA93 /* 05-05-管理委員會職務.heic */ = {isa = PBXFileReference; path = "05-05-管理委員會職務.heic"; sourceTree = "<group>"; };
+		5228751BFEB41FF67C40A060 /* 04-06-公告欄規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-06-公告欄規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		52CAC6675C46F8F3ED147208 /* 04-09-公告欄表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-09-公告欄表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		53B1573E5AECF3EB4CD438D8 /* 08-01-三千至一萬五罰鍰.heic */ = {isa = PBXFileReference; path = "08-01-三千至一萬五罰鍰.heic"; sourceTree = "<group>"; };
+		53E748145B7013AAC03E11E9 /* 07-20-老舊公寓梯間舊有公寓成立管理組織檢核.heic */ = {isa = PBXFileReference; path = "07-20-老舊公寓梯間舊有公寓成立管理組織檢核.heic"; sourceTree = "<group>"; };
+		53E7BB39FBECEA53386207DC /* 05-19-文件櫃文件閱覽不得拒絕檢核.heic */ = {isa = PBXFileReference; path = "05-19-文件櫃文件閱覽不得拒絕檢核.heic"; sourceTree = "<group>"; };
+		540BED893669DB98037E7BB6 /* 04-25-線上通知板決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-25-線上通知板決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		5418615C9CB85FE447E9B585 /* 07-18-老舊公寓梯間設施設備移交檢核.heic */ = {isa = PBXFileReference; path = "07-18-老舊公寓梯間設施設備移交檢核.heic"; sourceTree = "<group>"; };
+		54CADBE5F03BC6F4A95D6D56 /* 03-03-收支公告與移交.heic */ = {isa = PBXFileReference; path = "03-03-收支公告與移交.heic"; sourceTree = "<group>"; };
+		55106E76E246645BD9D80B3E /* 05-24-清潔維護現場文件閱覽不得拒絕檢核.heic */ = {isa = PBXFileReference; path = "05-24-清潔維護現場文件閱覽不得拒絕檢核.heic"; sourceTree = "<group>"; };
+		560E610C04238122C52E0D99 /* 03-09-銀行專戶公共基金來源檢核.heic */ = {isa = PBXFileReference; path = "03-09-銀行專戶公共基金來源檢核.heic"; sourceTree = "<group>"; };
+		56C60DFE7B541F9A8D51934B /* ProfessionalToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalToolsView.swift; sourceTree = "<group>"; };
+		5855A240FDDDBC6D06CAFBBB /* 03-22-欠費住戶公共基金不得扣押抵銷檢核.heic */ = {isa = PBXFileReference; path = "03-22-欠費住戶公共基金不得扣押抵銷檢核.heic"; sourceTree = "<group>"; };
+		594C229A413041441FC3A5C0 /* 08-04-主管機關處理爭議.heic */ = {isa = PBXFileReference; path = "08-04-主管機關處理爭議.heic"; sourceTree = "<group>"; };
+		5B32ACACF8E8254F0E71BA93 /* 01-01-公寓大廈定義圖解.heic */ = {isa = PBXFileReference; path = "01-01-公寓大廈定義圖解.heic"; sourceTree = "<group>"; };
+		5C8452C931E5921F099A0EF6 /* 07-14-銷售中心設施設備移交檢核.heic */ = {isa = PBXFileReference; path = "07-14-銷售中心設施設備移交檢核.heic"; sourceTree = "<group>"; };
+		5D9D44B240EE3E60F07DF960 /* 03-17-管委會交接公共基金來源檢核.heic */ = {isa = PBXFileReference; path = "03-17-管委會交接公共基金來源檢核.heic"; sourceTree = "<group>"; };
+		5DAA9187D0E4D877F49B31A7 /* 05-02-管理委員會成立.heic */ = {isa = PBXFileReference; path = "05-02-管理委員會成立.heic"; sourceTree = "<group>"; };
+		5F598124BF934AA2EE38EA3A /* 03-26-電梯維修公共基金不得扣押抵銷檢核.heic */ = {isa = PBXFileReference; path = "03-26-電梯維修公共基金不得扣押抵銷檢核.heic"; sourceTree = "<group>"; };
+		5F83EA1BA2EC57EC2A229488 /* 04-10-公告欄決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-10-公告欄決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		60C3ADBC2653D2E01EBAF5DD /* FullTextHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTextHomeView.swift; sourceTree = "<group>"; };
+		60D77B0AB4919EDF87DA146E /* 01-17-梯廳區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-17-梯廳區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		6203E625DF08BC4BCF5C3D9B /* 06-12-派駐人員管理服務人員禁止事項檢核.heic */ = {isa = PBXFileReference; path = "06-12-派駐人員管理服務人員禁止事項檢核.heic"; sourceTree = "<group>"; };
+		631E2BB1ABF7B2EEA2D1D045 /* CommercialUpdateUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CommercialUpdateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6328CD29726D615917F47B2C /* 06-14-機電巡檢委任管理服務人檢核.heic */ = {isa = PBXFileReference; path = "06-14-機電巡檢委任管理服務人檢核.heic"; sourceTree = "<group>"; };
+		63561F350D04F233A5BE4C57 /* 05-22-清潔維護現場管理委員會成立檢核.heic */ = {isa = PBXFileReference; path = "05-22-清潔維護現場管理委員會成立檢核.heic"; sourceTree = "<group>"; };
+		642D7CD4C2D921839DC8D5BB /* 04-24-線上通知板表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-24-線上通知板表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		6642AC9C6FC8B96A179E6DE1 /* RegulatoryResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulatoryResource.swift; sourceTree = "<group>"; };
+		66F1EFF6E27F0F745842A439 /* 04-07-公告欄繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-07-公告欄繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		67382A49447B4570DB3196BC /* 03-24-欠費住戶欠費催告與給付檢核.heic */ = {isa = PBXFileReference; path = "03-24-欠費住戶欠費催告與給付檢核.heic"; sourceTree = "<group>"; };
+		6853521856F9E702F14714E2 /* 06-11-派駐人員管理維護公司執業規範檢核.heic */ = {isa = PBXFileReference; path = "06-11-派駐人員管理維護公司執業規範檢核.heic"; sourceTree = "<group>"; };
+		69B815BC7646530DB0909FC1 /* 05-38-住戶服務櫃台會議紀錄保存檢核.heic */ = {isa = PBXFileReference; path = "05-38-住戶服務櫃台會議紀錄保存檢核.heic"; sourceTree = "<group>"; };
+		6AD16084C55BDEF72C700C7E /* 02-08-樓頂平台防火巷弄堆置禁止檢核.heic */ = {isa = PBXFileReference; path = "02-08-樓頂平台防火巷弄堆置禁止檢核.heic"; sourceTree = "<group>"; };
+		6ADD4A5D4C21E49DCD874E03 /* 02-31-停車空間共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-31-停車空間共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		6B7890365E77B6F5ED164477 /* 02-22-門廳外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-22-門廳外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		6C2BDB63F204B98A1916EA31 /* 08-17-證據照片牆三千至一萬五罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-17-證據照片牆三千至一萬五罰鍰檢核.heic"; sourceTree = "<group>"; };
+		6C4D3678BA47ACC89C90ADFD /* 04-26-重新召集會議規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-26-重新召集會議規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		6C7A6AAABBE421B43837998E /* 07-06-圖說交接桌設施設備移交檢核.heic */ = {isa = PBXFileReference; path = "07-06-圖說交接桌設施設備移交檢核.heic"; sourceTree = "<group>"; };
+		6D4AB29243E04D97AD82D4EF /* 02-21-門廳共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-21-門廳共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		6EA3E8F9DA5CFB7308D2AE3A /* 01-05-標準層區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-05-標準層區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		6F5247C1664DC0B30F88B6D9 /* 02-35-公共管線共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-35-公共管線共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		6FDB96A96495B6B83DFDC78E /* 01-28-管道間公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-28-管道間公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		7028B932A5BB4DF952074ACF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		71107475F6D8AA47760036DF /* 02-23-門廳共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-23-門廳共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		738C27370B82F0C2D2CAE540 /* 05-09-管委會辦公桌文件閱覽不得拒絕檢核.heic */ = {isa = PBXFileReference; path = "05-09-管委會辦公桌文件閱覽不得拒絕檢核.heic"; sourceTree = "<group>"; };
+		7414F0DE14782D7EB600C588 /* 05-37-住戶服務櫃台管理委員會成立檢核.heic */ = {isa = PBXFileReference; path = "05-37-住戶服務櫃台管理委員會成立檢核.heic"; sourceTree = "<group>"; };
+		75AE92357331B40A9F715D2A /* 02-03-共用部分修繕分工.heic */ = {isa = PBXFileReference; path = "02-03-共用部分修繕分工.heic"; sourceTree = "<group>"; };
+		75D2EC84AC99151294DA2AC9 /* 02-30-停車空間外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-30-停車空間外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		760B0DD372904A4BE1EFA0CD /* 04-33-臨時會議區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-33-臨時會議區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		7646ABB18ECE62767CC417A8 /* 04-21-線上通知板規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-21-線上通知板規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		7694FC0F6D97969888FD58B3 /* 05-30-公共安全巡檢管理委員會職務檢核.heic */ = {isa = PBXFileReference; path = "05-30-公共安全巡檢管理委員會職務檢核.heic"; sourceTree = "<group>"; };
+		77365B51E64A7C526F5FA2F2 /* 04-42-會議室繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-42-會議室繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		78C25340A67DB347B40CD4EB /* 05-36-住戶服務櫃台起造人召集第一次會議檢核.heic */ = {isa = PBXFileReference; path = "05-36-住戶服務櫃台起造人召集第一次會議檢核.heic"; sourceTree = "<group>"; };
+		78CDC6775495E930F450AF39 /* 05-16-文件櫃起造人召集第一次會議檢核.heic */ = {isa = PBXFileReference; path = "05-16-文件櫃起造人召集第一次會議檢核.heic"; sourceTree = "<group>"; };
+		79164C4E5C8827FE05EA30B4 /* 04-03-區分所有權人會議召集.heic */ = {isa = PBXFileReference; path = "04-03-區分所有權人會議召集.heic"; sourceTree = "<group>"; };
+		7A542F0080CCA8524049B8ED /* 03-11-銀行專戶收支公告與移交檢核.heic */ = {isa = PBXFileReference; path = "03-11-銀行專戶收支公告與移交檢核.heic"; sourceTree = "<group>"; };
+		7AA303E9691DC39B5F8CAD29 /* 06-19-服務契約桌管理維護公司執業規範檢核.heic */ = {isa = PBXFileReference; path = "06-19-服務契約桌管理維護公司執業規範檢核.heic"; sourceTree = "<group>"; };
+		7AEF7E993361B1D69E96AED6 /* 01-16-梯廳公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-16-梯廳公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		7BB3E7D3D42CD85A1B0E1D81 /* 07-09-機電設備室規約草約與圖說檢核.heic */ = {isa = PBXFileReference; path = "07-09-機電設備室規約草約與圖說檢核.heic"; sourceTree = "<group>"; };
+		7C7ACBB866E2CDB25A15E26B /* 05-13-管理中心會議紀錄保存檢核.heic */ = {isa = PBXFileReference; path = "05-13-管理中心會議紀錄保存檢核.heic"; sourceTree = "<group>"; };
+		7D6B0AC254BFD2872BEEFD0A /* 04-29-重新召集會議表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-29-重新召集會議表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		7DB04986881C972CA8C2F077 /* 06-05-社區服務中心管理維護公司許可檢核.heic */ = {isa = PBXFileReference; path = "06-05-社區服務中心管理維護公司許可檢核.heic"; sourceTree = "<group>"; };
+		7DE65228766B2EB9D3F131C0 /* PreviewLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLockView.swift; sourceTree = "<group>"; };
+		7DF62E6E03E88BB3892DE06C /* TaiwanCondoLawApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanCondoLawApp.swift; sourceTree = "<group>"; };
+		7E174603BE8A69AA0F3706A7 /* 04-31-臨時會議規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-31-臨時會議規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		7E1939AFBD32660FAB27CDBC /* 02-26-地下室外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-26-地下室外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		7F75CE45D521D354AEB737C9 /* 06-09-派駐人員管理維護公司許可檢核.heic */ = {isa = PBXFileReference; path = "06-09-派駐人員管理維護公司許可檢核.heic"; sourceTree = "<group>"; };
+		8048BF878491E1D346E30D97 /* 06-02-委任管理服務人.heic */ = {isa = PBXFileReference; path = "06-02-委任管理服務人.heic"; sourceTree = "<group>"; };
+		80840D3BF5312B9AF9CF3B73 /* 06-08-社區服務中心管理服務人員禁止事項檢核.heic */ = {isa = PBXFileReference; path = "06-08-社區服務中心管理服務人員禁止事項檢核.heic"; sourceTree = "<group>"; };
+		8110F17156573A4B3AB61744 /* 02-06-樓頂平台外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-06-樓頂平台外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		8162F88247D56733A0C89924 /* 03-20-管委會交接欠費催告與給付檢核.heic */ = {isa = PBXFileReference; path = "03-20-管委會交接欠費催告與給付檢核.heic"; sourceTree = "<group>"; };
+		82C2E665B8B8342D52039E10 /* 06-06-社區服務中心委任管理服務人檢核.heic */ = {isa = PBXFileReference; path = "06-06-社區服務中心委任管理服務人檢核.heic"; sourceTree = "<group>"; };
+		8516CA876550EA4FDA07C0C7 /* 01-29-管道間區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-29-管道間區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		862F31603886B12B790ADD2B /* RegulatoryResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulatoryResourcesView.swift; sourceTree = "<group>"; };
+		87E4A654EBB1F303D9CE66A6 /* 08-12-裁處書桌面主管機關處理爭議檢核.heic */ = {isa = PBXFileReference; path = "08-12-裁處書桌面主管機關處理爭議檢核.heic"; sourceTree = "<group>"; };
+		887E62F05D4F181E2470CF30 /* 03-27-電梯維修收支公告與移交檢核.heic */ = {isa = PBXFileReference; path = "03-27-電梯維修收支公告與移交檢核.heic"; sourceTree = "<group>"; };
+		8CC980D6E329E75F8D1A29D4 /* 02-14-樓梯間外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-14-樓梯間外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		8E400F8C5752A9FA08AE5525 /* 05-26-公共安全巡檢起造人召集第一次會議檢核.heic */ = {isa = PBXFileReference; path = "05-26-公共安全巡檢起造人召集第一次會議檢核.heic"; sourceTree = "<group>"; };
+		8F7DE530F3150FB3A0E8C3BD /* 02-16-樓梯間防火巷弄堆置禁止檢核.heic */ = {isa = PBXFileReference; path = "02-16-樓梯間防火巷弄堆置禁止檢核.heic"; sourceTree = "<group>"; };
+		9361D6644E02026DDDE8E6AD /* 01-21-住戶門口住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-21-住戶門口住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		938F9D665A9CED2E29984A4B /* 02-25-地下室共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-25-地下室共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		94AE1EFF91F492E666DAD3F7 /* 03-01-公共基金來源.heic */ = {isa = PBXFileReference; path = "03-01-公共基金來源.heic"; sourceTree = "<group>"; };
+		94E704FF4DC71194CC535E9F /* 01-08-地下停車層區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-08-地下停車層區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		950C07F9542A4726F0C80195 /* 02-29-停車空間共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-29-停車空間共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		961501C15F28EB23AA341A9D /* 01-25-公共走廊公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-25-公共走廊公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		962A5E5BEC693A121B9F340C /* 04-23-線上通知板區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-23-線上通知板區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		9829E86305C90F656883125D /* 06-18-服務契約桌委任管理服務人檢核.heic */ = {isa = PBXFileReference; path = "06-18-服務契約桌委任管理服務人檢核.heic"; sourceTree = "<group>"; };
+		9835A6A01AFEDB10E7C7A7DD /* 01-03-住戶義務總覽.heic */ = {isa = PBXFileReference; path = "01-03-住戶義務總覽.heic"; sourceTree = "<group>"; };
+		98E8337053C09081EF5B056F /* 08-14-調處會議一千至五千罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-14-調處會議一千至五千罰鍰檢核.heic"; sourceTree = "<group>"; };
+		99F0C6E51026DAB40C0BBBBE /* 01-06-標準層住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-06-標準層住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		9ACBCE5C0DD4B167835DE8CF /* 04-30-重新召集會議決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-30-重新召集會議決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		9B0C8D9A8C2D4A17DEDE2019 /* 05-32-主任委員簽章管理委員會成立檢核.heic */ = {isa = PBXFileReference; path = "05-32-主任委員簽章管理委員會成立檢核.heic"; sourceTree = "<group>"; };
+		9B860A9B7D39A74D816432C7 /* 07-15-銷售中心共用部分不得讓售檢核.heic */ = {isa = PBXFileReference; path = "07-15-銷售中心共用部分不得讓售檢核.heic"; sourceTree = "<group>"; };
+		9D535FB7F94C45895B6DE053 /* IsoIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsoIconsView.swift; sourceTree = "<group>"; };
+		9DAC3D2A992C4079D04F060D /* 05-31-主任委員簽章起造人召集第一次會議檢核.heic */ = {isa = PBXFileReference; path = "05-31-主任委員簽章起造人召集第一次會議檢核.heic"; sourceTree = "<group>"; };
+		9E08A8B857293BCA994AAA1D /* 05-29-公共安全巡檢文件閱覽不得拒絕檢核.heic */ = {isa = PBXFileReference; path = "05-29-公共安全巡檢文件閱覽不得拒絕檢核.heic"; sourceTree = "<group>"; };
+		A20DE4F018AC970AB7E66C66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4BDEC75F028CC96FCB79D5F /* 08-20-證據照片牆主管機關處理爭議檢核.heic */ = {isa = PBXFileReference; path = "08-20-證據照片牆主管機關處理爭議檢核.heic"; sourceTree = "<group>"; };
+		A4E4C7E73DD3CDE200EE1284 /* 04-08-公告欄區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-08-公告欄區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		A5995550888BC774892B02C6 /* 02-19-防火巷弄共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-19-防火巷弄共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		A5A396CE45E59CE96A787FAE /* 05-17-文件櫃管理委員會成立檢核.heic */ = {isa = PBXFileReference; path = "05-17-文件櫃管理委員會成立檢核.heic"; sourceTree = "<group>"; };
+		A60E3F522F2207AC9F95BF6B /* 05-14-管理中心文件閱覽不得拒絕檢核.heic */ = {isa = PBXFileReference; path = "05-14-管理中心文件閱覽不得拒絕檢核.heic"; sourceTree = "<group>"; };
+		A7226565E9EAE99729E1754B /* 02-04-防火巷弄堆置禁止.heic */ = {isa = PBXFileReference; path = "02-04-防火巷弄堆置禁止.heic"; sourceTree = "<group>"; };
+		A888BC7B3AAA94AB193255C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A956D3DF512271D01B27A7B6 /* 08-18-證據照片牆一千至五千罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-18-證據照片牆一千至五千罰鍰檢核.heic"; sourceTree = "<group>"; };
+		ABAB40C89F0164A65BFA9EC0 /* 04-45-會議室決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-45-會議室決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		ABC52078F999641E80421F85 /* 08-19-證據照片牆四萬至二十萬罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-19-證據照片牆四萬至二十萬罰鍰檢核.heic"; sourceTree = "<group>"; };
+		AC0505839E9E0D8BD46833F4 /* 04-34-臨時會議表決權與委託出席檢核.heic */ = {isa = PBXFileReference; path = "04-34-臨時會議表決權與委託出席檢核.heic"; sourceTree = "<group>"; };
+		AC1A5F5E72AEF8F38DF49A49 /* 02-33-公共管線共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-33-公共管線共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		AC30D6B84D652353E47E851F /* 05-03-會議紀錄保存.heic */ = {isa = PBXFileReference; path = "05-03-會議紀錄保存.heic"; sourceTree = "<group>"; };
+		AD1EA83B8885AF1C0BD3D053 /* 02-12-共同走廊防火巷弄堆置禁止檢核.heic */ = {isa = PBXFileReference; path = "02-12-共同走廊防火巷弄堆置禁止檢核.heic"; sourceTree = "<group>"; };
+		AD1F8117F959AFBE403641F2 /* 06-21-證照審查管理維護公司許可檢核.heic */ = {isa = PBXFileReference; path = "06-21-證照審查管理維護公司許可檢核.heic"; sourceTree = "<group>"; };
+		AD5275EA88003952E6C60820 /* 07-02-設施設備移交.heic */ = {isa = PBXFileReference; path = "07-02-設施設備移交.heic"; sourceTree = "<group>"; };
+		AD5FC1BA32C27977D7136F2E /* 01-26-公共走廊區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-26-公共走廊區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		AD621D34DC97F89F8B982898 /* 03-16-修繕現場欠費催告與給付檢核.heic */ = {isa = PBXFileReference; path = "03-16-修繕現場欠費催告與給付檢核.heic"; sourceTree = "<group>"; };
+		AD917BC8FF852048A906BFF6 /* 07-07-圖說交接桌共用部分不得讓售檢核.heic */ = {isa = PBXFileReference; path = "07-07-圖說交接桌共用部分不得讓售檢核.heic"; sourceTree = "<group>"; };
+		ADAA7A7EF0747AD88521183A /* 02-09-共同走廊共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-09-共同走廊共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		AE50CBA2E06342270201BC58 /* 02-01-共用部分不得約定專用.heic */ = {isa = PBXFileReference; path = "02-01-共用部分不得約定專用.heic"; sourceTree = "<group>"; };
+		AE7EABAD6722C2584C58BFF9 /* 02-10-共同走廊外牆與樓頂平台限制檢核.heic */ = {isa = PBXFileReference; path = "02-10-共同走廊外牆與樓頂平台限制檢核.heic"; sourceTree = "<group>"; };
+		AEA214C8FF5867FD4A1649F1 /* 08-05-主管機關櫃台三千至一萬五罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-05-主管機關櫃台三千至一萬五罰鍰檢核.heic"; sourceTree = "<group>"; };
+		AEC87A8AFEAE03FAECD3CBF6 /* 05-11-管理中心起造人召集第一次會議檢核.heic */ = {isa = PBXFileReference; path = "05-11-管理中心起造人召集第一次會議檢核.heic"; sourceTree = "<group>"; };
+		AF96C5FA25ACDA4DBD643E50 /* 05-35-主任委員簽章管理委員會職務檢核.heic */ = {isa = PBXFileReference; path = "05-35-主任委員簽章管理委員會職務檢核.heic"; sourceTree = "<group>"; };
+		AFAE0DC6C9DE12AC4E9A0EB7 /* 04-17-住戶信箱繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-17-住戶信箱繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		AFD3A68D62CF3BC899A40090 /* 07-13-銷售中心規約草約與圖說檢核.heic */ = {isa = PBXFileReference; path = "07-13-銷售中心規約草約與圖說檢核.heic"; sourceTree = "<group>"; };
+		B005E3266794C4711F104EEC /* 06-16-機電巡檢管理服務人員禁止事項檢核.heic */ = {isa = PBXFileReference; path = "06-16-機電巡檢管理服務人員禁止事項檢核.heic"; sourceTree = "<group>"; };
+		B0E588542FDC0EF635EC148B /* 05-04-文件閱覽不得拒絕.heic */ = {isa = PBXFileReference; path = "05-04-文件閱覽不得拒絕.heic"; sourceTree = "<group>"; };
+		B139F66E9D27F4A83DD5CA27 /* 04-38-規約修訂桌區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-38-規約修訂桌區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		B203BA1B7E5D188C26A723A7 /* 06-13-機電巡檢管理維護公司許可檢核.heic */ = {isa = PBXFileReference; path = "06-13-機電巡檢管理維護公司許可檢核.heic"; sourceTree = "<group>"; };
+		B2C84A9FF3CBA15C478E1201 /* 03-30-大樓外牆修繕公共基金不得扣押抵銷檢核.heic */ = {isa = PBXFileReference; path = "03-30-大樓外牆修繕公共基金不得扣押抵銷檢核.heic"; sourceTree = "<group>"; };
+		B39968EA66165BE65A8F3414 /* 01-15-社區基地住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-15-社區基地住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		B3F5E2E7C428444A9AE22D48 /* 05-34-主任委員簽章文件閱覽不得拒絕檢核.heic */ = {isa = PBXFileReference; path = "05-34-主任委員簽章文件閱覽不得拒絕檢核.heic"; sourceTree = "<group>"; };
+		B477FCCC451B3237D677C0CF /* 04-32-臨時會議繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-32-臨時會議繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		B77BCAF0E688721271D6B77C /* 03-13-修繕現場公共基金來源檢核.heic */ = {isa = PBXFileReference; path = "03-13-修繕現場公共基金來源檢核.heic"; sourceTree = "<group>"; };
+		B7BAE80CE502E694184FCEFB /* 03-02-公共基金不得扣押抵銷.heic */ = {isa = PBXFileReference; path = "03-02-公共基金不得扣押抵銷.heic"; sourceTree = "<group>"; };
+		B81CE1594162C4842034B29C /* 05-12-管理中心管理委員會成立檢核.heic */ = {isa = PBXFileReference; path = "05-12-管理中心管理委員會成立檢核.heic"; sourceTree = "<group>"; };
+		B97EBB29332AF58FB6CD783D /* 04-15-投票區決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-15-投票區決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		BE3E3A16812540A2ECC7D523 /* 07-10-機電設備室設施設備移交檢核.heic */ = {isa = PBXFileReference; path = "07-10-機電設備室設施設備移交檢核.heic"; sourceTree = "<group>"; };
+		C0265B4F8D762A11DDC184AE /* 05-25-清潔維護現場管理委員會職務檢核.heic */ = {isa = PBXFileReference; path = "05-25-清潔維護現場管理委員會職務檢核.heic"; sourceTree = "<group>"; };
+		C072558B132FA8D9C7E6E5C3 /* 03-25-電梯維修公共基金來源檢核.heic */ = {isa = PBXFileReference; path = "03-25-電梯維修公共基金來源檢核.heic"; sourceTree = "<group>"; };
+		C0C487B21B40D7F6BAF196E4 /* 05-06-管委會辦公桌起造人召集第一次會議檢核.heic */ = {isa = PBXFileReference; path = "05-06-管委會辦公桌起造人召集第一次會議檢核.heic"; sourceTree = "<group>"; };
+		C1E84B26B012F39811451D61 /* 06-24-證照審查管理服務人員禁止事項檢核.heic */ = {isa = PBXFileReference; path = "06-24-證照審查管理服務人員禁止事項檢核.heic"; sourceTree = "<group>"; };
+		C29613411D9FBBEB3B832468 /* 03-28-電梯維修欠費催告與給付檢核.heic */ = {isa = PBXFileReference; path = "03-28-電梯維修欠費催告與給付檢核.heic"; sourceTree = "<group>"; };
+		C37B765E85A22742DF7874CC /* IllustrationsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustrationsHomeView.swift; sourceTree = "<group>"; };
+		C394BC9F1CE2757E93A2C917 /* 03-18-管委會交接公共基金不得扣押抵銷檢核.heic */ = {isa = PBXFileReference; path = "03-18-管委會交接公共基金不得扣押抵銷檢核.heic"; sourceTree = "<group>"; };
+		C39EC39DA3B52834F378530D /* 06-22-證照審查委任管理服務人檢核.heic */ = {isa = PBXFileReference; path = "06-22-證照審查委任管理服務人檢核.heic"; sourceTree = "<group>"; };
+		C7D5A119AE09F893F790C287 /* 05-01-起造人召集第一次會議.heic */ = {isa = PBXFileReference; path = "05-01-起造人召集第一次會議.heic"; sourceTree = "<group>"; };
+		C8A0E0F48729EBFA4DA3A240 /* CondoChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondoChecklistView.swift; sourceTree = "<group>"; };
+		CAC0763B7EAA7FC7774159D0 /* 07-12-機電設備室舊有公寓成立管理組織檢核.heic */ = {isa = PBXFileReference; path = "07-12-機電設備室舊有公寓成立管理組織檢核.heic"; sourceTree = "<group>"; };
+		CDAD466E3F7465A0F0D712AB /* 07-22-竣工圖說箱設施設備移交檢核.heic */ = {isa = PBXFileReference; path = "07-22-竣工圖說箱設施設備移交檢核.heic"; sourceTree = "<group>"; };
+		D391A032C12AA71EAE904AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E28AE801F052CFD8E051D8 /* 04-36-規約修訂桌規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-36-規約修訂桌規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		D8974FE00AFB364DC534D576 /* 02-05-樓頂平台共用部分不得約定專用檢核.heic */ = {isa = PBXFileReference; path = "02-05-樓頂平台共用部分不得約定專用檢核.heic"; sourceTree = "<group>"; };
+		D8DD06CAA768E6A8B2002602 /* 02-20-防火巷弄通道堆置禁止檢核.heic */ = {isa = PBXFileReference; path = "02-20-防火巷弄通道堆置禁止檢核.heic"; sourceTree = "<group>"; };
+		D8EBD43C9D1AFB3D36E16202 /* 05-20-文件櫃管理委員會職務檢核.heic */ = {isa = PBXFileReference; path = "05-20-文件櫃管理委員會職務檢核.heic"; sourceTree = "<group>"; };
+		D9733D5FE5AA4651A1762A42 /* 05-08-管委會辦公桌會議紀錄保存檢核.heic */ = {isa = PBXFileReference; path = "05-08-管委會辦公桌會議紀錄保存檢核.heic"; sourceTree = "<group>"; };
+		DA01B928B36552578D2BF584 /* 03-07-公告欄收支公告與移交檢核.heic */ = {isa = PBXFileReference; path = "03-07-公告欄收支公告與移交檢核.heic"; sourceTree = "<group>"; };
+		DB8C10E0F87E3FB2DBCBD560 /* 08-15-調處會議四萬至二十萬罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-15-調處會議四萬至二十萬罰鍰檢核.heic"; sourceTree = "<group>"; };
+		DBAE3BAFF20689FE3AE189BB /* 04-20-住戶信箱決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-20-住戶信箱決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		DD3A1E8F4D12668A91D670ED /* 08-09-裁處書桌面三千至一萬五罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-09-裁處書桌面三千至一萬五罰鍰檢核.heic"; sourceTree = "<group>"; };
+		DF853EB41C49B55210158BBA /* ResourceJPEG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceJPEG.swift; sourceTree = "<group>"; };
+		DF981501ED186FCDE8F93E17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E177BD95D52E5F6387ADC5D5 /* 08-11-裁處書桌面四萬至二十萬罰鍰檢核.heic */ = {isa = PBXFileReference; path = "08-11-裁處書桌面四萬至二十萬罰鍰檢核.heic"; sourceTree = "<group>"; };
+		E3A1E2219B987D45635B77FE /* 08-08-主管機關櫃台主管機關處理爭議檢核.heic */ = {isa = PBXFileReference; path = "08-08-主管機關櫃台主管機關處理爭議檢核.heic"; sourceTree = "<group>"; };
+		E3EEF9B5F77D97D881E1AAF3 /* 04-41-會議室規約應載明事項檢核.heic */ = {isa = PBXFileReference; path = "04-41-會議室規約應載明事項檢核.heic"; sourceTree = "<group>"; };
+		E45ECC2D9CF13F3BF26925FE /* 06-20-服務契約桌管理服務人員禁止事項檢核.heic */ = {isa = PBXFileReference; path = "06-20-服務契約桌管理服務人員禁止事項檢核.heic"; sourceTree = "<group>"; };
+		E519E526EA4F1A3C4D87203D /* 06-10-派駐人員委任管理服務人檢核.heic */ = {isa = PBXFileReference; path = "06-10-派駐人員委任管理服務人檢核.heic"; sourceTree = "<group>"; };
+		E64AA8305F0266110A2C5E70 /* 07-23-竣工圖說箱共用部分不得讓售檢核.heic */ = {isa = PBXFileReference; path = "07-23-竣工圖說箱共用部分不得讓售檢核.heic"; sourceTree = "<group>"; };
+		E6F4936B98E7C0FAF90EFE37 /* 03-08-公告欄欠費催告與給付檢核.heic */ = {isa = PBXFileReference; path = "03-08-公告欄欠費催告與給付檢核.heic"; sourceTree = "<group>"; };
+		E768C689FA491768B9A27F98 /* 01-09-地下停車層住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-09-地下停車層住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+		E7754ADF9C6FE497BEDE31E3 /* 01-23-機電室區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-23-機電室區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		E7CF43B7E96EDF661EA4CF29 /* 04-18-住戶信箱區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-18-住戶信箱區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		E8897EA3CEDA43D6EDEEEE80 /* 06-07-社區服務中心管理維護公司執業規範檢核.heic */ = {isa = PBXFileReference; path = "06-07-社區服務中心管理維護公司執業規範檢核.heic"; sourceTree = "<group>"; };
+		E89D3C03B9897E20523C5031 /* 07-05-圖說交接桌規約草約與圖說檢核.heic */ = {isa = PBXFileReference; path = "07-05-圖說交接桌規約草約與圖說檢核.heic"; sourceTree = "<group>"; };
+		E913EE200E71B30AA526D4F9 /* 03-04-欠費催告與給付.heic */ = {isa = PBXFileReference; path = "03-04-欠費催告與給付.heic"; sourceTree = "<group>"; };
+		E9BB510D6CBECBDC1DAD9CFB /* 01-10-屋頂平台公寓大廈定義圖解檢核.heic */ = {isa = PBXFileReference; path = "01-10-屋頂平台公寓大廈定義圖解檢核.heic"; sourceTree = "<group>"; };
+		EC007CBFDA9E921FFC9166B5 /* 05-39-住戶服務櫃台文件閱覽不得拒絕檢核.heic */ = {isa = PBXFileReference; path = "05-39-住戶服務櫃台文件閱覽不得拒絕檢核.heic"; sourceTree = "<group>"; };
+		ED329AC9FBEAF12E39C6A3B7 /* Configuration.storekit */ = {isa = PBXFileReference; path = Configuration.storekit; sourceTree = "<group>"; };
+		EED82F9DE43DB95219CC5480 /* 03-05-公告欄公共基金來源檢核.heic */ = {isa = PBXFileReference; path = "03-05-公告欄公共基金來源檢核.heic"; sourceTree = "<group>"; };
+		EEDDBDC08BF53FCA58B7E9D3 /* 04-35-臨時會議決議門檻圖解檢核.heic */ = {isa = PBXFileReference; path = "04-35-臨時會議決議門檻圖解檢核.heic"; sourceTree = "<group>"; };
+		EF6ED7B12BC821D1DD1F76CF /* 07-24-竣工圖說箱舊有公寓成立管理組織檢核.heic */ = {isa = PBXFileReference; path = "07-24-竣工圖說箱舊有公寓成立管理組織檢核.heic"; sourceTree = "<group>"; };
+		EF7B4465BC312665583B9EF8 /* 05-07-管委會辦公桌管理委員會成立檢核.heic */ = {isa = PBXFileReference; path = "05-07-管委會辦公桌管理委員會成立檢核.heic"; sourceTree = "<group>"; };
+		F0EAD8EF54C1B0C24A8FB84B /* 03-14-修繕現場公共基金不得扣押抵銷檢核.heic */ = {isa = PBXFileReference; path = "03-14-修繕現場公共基金不得扣押抵銷檢核.heic"; sourceTree = "<group>"; };
+		F205BC5A4AFAE19A842FAF87 /* 03-10-銀行專戶公共基金不得扣押抵銷檢核.heic */ = {isa = PBXFileReference; path = "03-10-銀行專戶公共基金不得扣押抵銷檢核.heic"; sourceTree = "<group>"; };
+		F37555D1828020CA339E0E36 /* 04-13-投票區區分所有權人會議召集檢核.heic */ = {isa = PBXFileReference; path = "04-13-投票區區分所有權人會議召集檢核.heic"; sourceTree = "<group>"; };
+		F63AC88C5986F47C4B761844 /* 07-01-規約草約與圖說.heic */ = {isa = PBXFileReference; path = "07-01-規約草約與圖說.heic"; sourceTree = "<group>"; };
+		F67D6044B940B16F3A9C5AB7 /* 03-15-修繕現場收支公告與移交檢核.heic */ = {isa = PBXFileReference; path = "03-15-修繕現場收支公告與移交檢核.heic"; sourceTree = "<group>"; };
+		F8CF099C7C066716DD5F7B36 /* 04-04-表決權與委託出席.heic */ = {isa = PBXFileReference; path = "04-04-表決權與委託出席.heic"; sourceTree = "<group>"; };
+		F8E5B1142FFCFC9812458F7A /* 02-27-地下室共用部分修繕分工檢核.heic */ = {isa = PBXFileReference; path = "02-27-地下室共用部分修繕分工檢核.heic"; sourceTree = "<group>"; };
+		F962007746F30AFCB5B97556 /* articles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
+		FAC88C8ED98EF3EC63FB4040 /* 01-14-社區基地區分所有權圖解檢核.heic */ = {isa = PBXFileReference; path = "01-14-社區基地區分所有權圖解檢核.heic"; sourceTree = "<group>"; };
+		FB3C9C8458BF7C24C314008E /* 04-22-線上通知板繼受人文件閱覽檢核.heic */ = {isa = PBXFileReference; path = "04-22-線上通知板繼受人文件閱覽檢核.heic"; sourceTree = "<group>"; };
+		FBE4AFEF15B15400742005A8 /* 03-23-欠費住戶收支公告與移交檢核.heic */ = {isa = PBXFileReference; path = "03-23-欠費住戶收支公告與移交檢核.heic"; sourceTree = "<group>"; };
+		FBF7429234EA479F90BFD946 /* 07-25-公共設施移交規約草約與圖說檢核.heic */ = {isa = PBXFileReference; path = "07-25-公共設施移交規約草約與圖說檢核.heic"; sourceTree = "<group>"; };
+		FEB13639C74D9524C419BEB5 /* 01-30-管道間住戶義務總覽檢核.heic */ = {isa = PBXFileReference; path = "01-30-管道間住戶義務總覽檢核.heic"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		133C1B1E66C7DC2B80F2FC02 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13183BA63300DD312625F24F /* ArticleStore.swift */,
+				27CECD41BC88827B4DAE4440 /* BookmarkStore.swift */,
+				4A82C9AF7F7FC72A7D6AB89B /* IAPManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		18D20D7C00A4A73F4440FB97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D391A032C12AA71EAE904AD3 /* Assets.xcassets */,
+				ED329AC9FBEAF12E39C6A3B7 /* Configuration.storekit */,
+				A888BC7B3AAA94AB193255C1 /* PrivacyInfo.xcprivacy */,
+				57080A2DE07B8F3ACD85F5C1 /* data */,
+				EEE240E87FF239ABD97156F3 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		281D2CC249E9C702559E2573 /* Tab5_Resources */ = {
+			isa = PBXGroup;
+			children = (
+				862F31603886B12B790ADD2B /* RegulatoryResourcesView.swift */,
+			);
+			path = Tab5_Resources;
+			sourceTree = "<group>";
+		};
+		2F0C8B6DDB5E085FC89699DF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4003055307BD5E359B04EA6B /* AppTheme.swift */,
+				DF981501ED186FCDE8F93E17 /* Constants.swift */,
+				A20DE4F018AC970AB7E66C66 /* ContentView.swift */,
+				7DF62E6E03E88BB3892DE06C /* TaiwanCondoLawApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		367F9E98141BA8C1316B11C8 /* Tab1_Illustrations */ = {
+			isa = PBXGroup;
+			children = (
+				0422EC77CCB6D0FF874593D5 /* ArticleDetailView.swift */,
+				C37B765E85A22742DF7874CC /* IllustrationsHomeView.swift */,
+			);
+			path = Tab1_Illustrations;
+			sourceTree = "<group>";
+		};
+		447717C1800AE35BC19CC3D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B79A779724F1350C2B61551D /* Shared */,
+				367F9E98141BA8C1316B11C8 /* Tab1_Illustrations */,
+				CD7637EC3D7495B2BFFADB99 /* Tab2_FullText */,
+				B421B4EB23AFB35C315BE199 /* Tab3_CommonClauses */,
+				D951B2924C33373740E4818D /* Tab3_Gallery */,
+				93BA264BEEA65815A81C396F /* Tab4_Calculators */,
+				281D2CC249E9C702559E2573 /* Tab5_Resources */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46C27CE85F6227687931BF54 /* TaiwanCondoLaw */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C8B6DDB5E085FC89699DF /* App */,
+				D5D5C2FFACC3D73032D2DFFD /* Models */,
+				18D20D7C00A4A73F4440FB97 /* Resources */,
+				133C1B1E66C7DC2B80F2FC02 /* Services */,
+				447717C1800AE35BC19CC3D7 /* Views */,
+			);
+			path = TaiwanCondoLaw;
+			sourceTree = "<group>";
+		};
+		57080A2DE07B8F3ACD85F5C1 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F962007746F30AFCB5B97556 /* articles.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		93BA264BEEA65815A81C396F /* Tab4_Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				C8A0E0F48729EBFA4DA3A240 /* CondoChecklistView.swift */,
+				56C60DFE7B541F9A8D51934B /* ProfessionalToolsView.swift */,
+			);
+			path = Tab4_Calculators;
+			sourceTree = "<group>";
+		};
+		AAB3EFE1A4E5F50E83329F0E /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				336C8AA73BEBD20FA5700E40 /* CommercialUpdateUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		B421B4EB23AFB35C315BE199 /* Tab3_CommonClauses */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF648E0449B8C3ED796F3 /* CondoQuizView.swift */,
+			);
+			path = Tab3_CommonClauses;
+			sourceTree = "<group>";
+		};
+		B79A779724F1350C2B61551D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				340453CFE5B0B45CEB4C49AD /* IsoHouseView.swift */,
+				9D535FB7F94C45895B6DE053 /* IsoIconsView.swift */,
+				7028B932A5BB4DF952074ACF /* OnboardingView.swift */,
+				22994F2DE530E1A9D8224D75 /* PaywallView.swift */,
+				7DE65228766B2EB9D3F131C0 /* PreviewLockView.swift */,
+				DF853EB41C49B55210158BBA /* ResourceJPEG.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BB2FE9DF0028E512CEA9AFBE = {
+			isa = PBXGroup;
+			children = (
+				46C27CE85F6227687931BF54 /* TaiwanCondoLaw */,
+				AAB3EFE1A4E5F50E83329F0E /* UITests */,
+				EA665213E632785352DAFA85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7637EC3D7495B2BFFADB99 /* Tab2_FullText */ = {
+			isa = PBXGroup;
+			children = (
+				60C3ADBC2653D2E01EBAF5DD /* FullTextHomeView.swift */,
+				458BC3246CA534573388C1E1 /* SearchView.swift */,
+			);
+			path = Tab2_FullText;
+			sourceTree = "<group>";
+		};
+		D5D5C2FFACC3D73032D2DFFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BE5EC35AF4370B3B60F6373 /* ArticleData.swift */,
+				3A270D02B697B610161DD5D5 /* ProfessionalTool.swift */,
+				6642AC9C6FC8B96A179E6DE1 /* RegulatoryResource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D951B2924C33373740E4818D /* Tab3_Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				47C43F1F64041C3C6BFD8420 /* GalleryView.swift */,
+			);
+			path = Tab3_Gallery;
+			sourceTree = "<group>";
+		};
+		EA665213E632785352DAFA85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631E2BB1ABF7B2EEA2D1D045 /* CommercialUpdateUITests.xctest */,
+				328C1739646050A6F17C59D6 /* TaiwanCondoLaw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE240E87FF239ABD97156F3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5B32ACACF8E8254F0E71BA93 /* 01-01-公寓大廈定義圖解.heic */,
+				0DD7352A22A0B0239A593C12 /* 01-02-區分所有權圖解.heic */,
+				9835A6A01AFEDB10E7C7A7DD /* 01-03-住戶義務總覽.heic */,
+				38B5A2C0BB89BB1FC72C5EDF /* 01-04-標準層公寓大廈定義圖解檢核.heic */,
+				6EA3E8F9DA5CFB7308D2AE3A /* 01-05-標準層區分所有權圖解檢核.heic */,
+				99F0C6E51026DAB40C0BBBBE /* 01-06-標準層住戶義務總覽檢核.heic */,
+				34B3CCEA65317A72E50F68DC /* 01-07-地下停車層公寓大廈定義圖解檢核.heic */,
+				94E704FF4DC71194CC535E9F /* 01-08-地下停車層區分所有權圖解檢核.heic */,
+				E768C689FA491768B9A27F98 /* 01-09-地下停車層住戶義務總覽檢核.heic */,
+				E9BB510D6CBECBDC1DAD9CFB /* 01-10-屋頂平台公寓大廈定義圖解檢核.heic */,
+				44AAA6E47991C85DF58E558E /* 01-11-屋頂平台區分所有權圖解檢核.heic */,
+				1F818359DC8DC2552B94D5D8 /* 01-12-屋頂平台住戶義務總覽檢核.heic */,
+				2D8CE755F6D1C90DFCE30C64 /* 01-13-社區基地公寓大廈定義圖解檢核.heic */,
+				FAC88C8ED98EF3EC63FB4040 /* 01-14-社區基地區分所有權圖解檢核.heic */,
+				B39968EA66165BE65A8F3414 /* 01-15-社區基地住戶義務總覽檢核.heic */,
+				7AEF7E993361B1D69E96AED6 /* 01-16-梯廳公寓大廈定義圖解檢核.heic */,
+				60D77B0AB4919EDF87DA146E /* 01-17-梯廳區分所有權圖解檢核.heic */,
+				18157098047B34B74C5D22E0 /* 01-18-梯廳住戶義務總覽檢核.heic */,
+				0C91D39E5F8AAAA7023FA5BE /* 01-19-住戶門口公寓大廈定義圖解檢核.heic */,
+				076144C34EE3380E458B26B2 /* 01-20-住戶門口區分所有權圖解檢核.heic */,
+				9361D6644E02026DDDE8E6AD /* 01-21-住戶門口住戶義務總覽檢核.heic */,
+				143086BF6B922E1EC212716C /* 01-22-機電室公寓大廈定義圖解檢核.heic */,
+				E7754ADF9C6FE497BEDE31E3 /* 01-23-機電室區分所有權圖解檢核.heic */,
+				2CDEFB5C2FBB2250EB059DA0 /* 01-24-機電室住戶義務總覽檢核.heic */,
+				961501C15F28EB23AA341A9D /* 01-25-公共走廊公寓大廈定義圖解檢核.heic */,
+				AD5FC1BA32C27977D7136F2E /* 01-26-公共走廊區分所有權圖解檢核.heic */,
+				34F8B3C5A18D2433B5CF4186 /* 01-27-公共走廊住戶義務總覽檢核.heic */,
+				6FDB96A96495B6B83DFDC78E /* 01-28-管道間公寓大廈定義圖解檢核.heic */,
+				8516CA876550EA4FDA07C0C7 /* 01-29-管道間區分所有權圖解檢核.heic */,
+				FEB13639C74D9524C419BEB5 /* 01-30-管道間住戶義務總覽檢核.heic */,
+				AE50CBA2E06342270201BC58 /* 02-01-共用部分不得約定專用.heic */,
+				3CD1472A0AA23CFA363DDEE0 /* 02-02-外牆與樓頂平台限制.heic */,
+				75AE92357331B40A9F715D2A /* 02-03-共用部分修繕分工.heic */,
+				A7226565E9EAE99729E1754B /* 02-04-防火巷弄堆置禁止.heic */,
+				D8974FE00AFB364DC534D576 /* 02-05-樓頂平台共用部分不得約定專用檢核.heic */,
+				8110F17156573A4B3AB61744 /* 02-06-樓頂平台外牆與樓頂平台限制檢核.heic */,
+				4EEE6E656897734DDE5A8651 /* 02-07-樓頂平台共用部分修繕分工檢核.heic */,
+				6AD16084C55BDEF72C700C7E /* 02-08-樓頂平台防火巷弄堆置禁止檢核.heic */,
+				ADAA7A7EF0747AD88521183A /* 02-09-共同走廊共用部分不得約定專用檢核.heic */,
+				AE7EABAD6722C2584C58BFF9 /* 02-10-共同走廊外牆與樓頂平台限制檢核.heic */,
+				1F11D914B559ABB69D75096E /* 02-11-共同走廊共用部分修繕分工檢核.heic */,
+				AD1EA83B8885AF1C0BD3D053 /* 02-12-共同走廊防火巷弄堆置禁止檢核.heic */,
+				21BCDF6632D1805BABB0888E /* 02-13-樓梯間共用部分不得約定專用檢核.heic */,
+				8CC980D6E329E75F8D1A29D4 /* 02-14-樓梯間外牆與樓頂平台限制檢核.heic */,
+				253568BAC50AA3E2B4D2D26A /* 02-15-樓梯間共用部分修繕分工檢核.heic */,
+				8F7DE530F3150FB3A0E8C3BD /* 02-16-樓梯間防火巷弄堆置禁止檢核.heic */,
+				378274C11C06965490DC7C8B /* 02-17-防火巷弄共用部分不得約定專用檢核.heic */,
+				320DD63CBFF6F22F79D4CE3D /* 02-18-防火巷弄外牆與樓頂平台限制檢核.heic */,
+				A5995550888BC774892B02C6 /* 02-19-防火巷弄共用部分修繕分工檢核.heic */,
+				D8DD06CAA768E6A8B2002602 /* 02-20-防火巷弄通道堆置禁止檢核.heic */,
+				6D4AB29243E04D97AD82D4EF /* 02-21-門廳共用部分不得約定專用檢核.heic */,
+				6B7890365E77B6F5ED164477 /* 02-22-門廳外牆與樓頂平台限制檢核.heic */,
+				71107475F6D8AA47760036DF /* 02-23-門廳共用部分修繕分工檢核.heic */,
+				10D341F6327081DE8A7468CA /* 02-24-門廳防火巷弄堆置禁止檢核.heic */,
+				938F9D665A9CED2E29984A4B /* 02-25-地下室共用部分不得約定專用檢核.heic */,
+				7E1939AFBD32660FAB27CDBC /* 02-26-地下室外牆與樓頂平台限制檢核.heic */,
+				F8E5B1142FFCFC9812458F7A /* 02-27-地下室共用部分修繕分工檢核.heic */,
+				371793AA6E69503D4554FDFB /* 02-28-地下室防火巷弄堆置禁止檢核.heic */,
+				950C07F9542A4726F0C80195 /* 02-29-停車空間共用部分不得約定專用檢核.heic */,
+				75D2EC84AC99151294DA2AC9 /* 02-30-停車空間外牆與樓頂平台限制檢核.heic */,
+				6ADD4A5D4C21E49DCD874E03 /* 02-31-停車空間共用部分修繕分工檢核.heic */,
+				0817E3E2C8E9F5E8EF9B461D /* 02-32-停車空間防火巷弄堆置禁止檢核.heic */,
+				AC1A5F5E72AEF8F38DF49A49 /* 02-33-公共管線共用部分不得約定專用檢核.heic */,
+				0934D2F53E1E92369F953373 /* 02-34-公共管線外牆與樓頂平台限制檢核.heic */,
+				6F5247C1664DC0B30F88B6D9 /* 02-35-公共管線共用部分修繕分工檢核.heic */,
+				94AE1EFF91F492E666DAD3F7 /* 03-01-公共基金來源.heic */,
+				B7BAE80CE502E694184FCEFB /* 03-02-公共基金不得扣押抵銷.heic */,
+				54CADBE5F03BC6F4A95D6D56 /* 03-03-收支公告與移交.heic */,
+				E913EE200E71B30AA526D4F9 /* 03-04-欠費催告與給付.heic */,
+				EED82F9DE43DB95219CC5480 /* 03-05-公告欄公共基金來源檢核.heic */,
+				16F7F149A77B904EB1F770F6 /* 03-06-公告欄公共基金不得扣押抵銷檢核.heic */,
+				DA01B928B36552578D2BF584 /* 03-07-公告欄收支公告與移交檢核.heic */,
+				E6F4936B98E7C0FAF90EFE37 /* 03-08-公告欄欠費催告與給付檢核.heic */,
+				560E610C04238122C52E0D99 /* 03-09-銀行專戶公共基金來源檢核.heic */,
+				F205BC5A4AFAE19A842FAF87 /* 03-10-銀行專戶公共基金不得扣押抵銷檢核.heic */,
+				7A542F0080CCA8524049B8ED /* 03-11-銀行專戶收支公告與移交檢核.heic */,
+				2A7A739BF77A8D7B9E6E83B1 /* 03-12-銀行專戶欠費催告與給付檢核.heic */,
+				B77BCAF0E688721271D6B77C /* 03-13-修繕現場公共基金來源檢核.heic */,
+				F0EAD8EF54C1B0C24A8FB84B /* 03-14-修繕現場公共基金不得扣押抵銷檢核.heic */,
+				F67D6044B940B16F3A9C5AB7 /* 03-15-修繕現場收支公告與移交檢核.heic */,
+				AD621D34DC97F89F8B982898 /* 03-16-修繕現場欠費催告與給付檢核.heic */,
+				5D9D44B240EE3E60F07DF960 /* 03-17-管委會交接公共基金來源檢核.heic */,
+				C394BC9F1CE2757E93A2C917 /* 03-18-管委會交接公共基金不得扣押抵銷檢核.heic */,
+				38C6AD69930B6E1B7ACE15A6 /* 03-19-管委會交接收支公告與移交檢核.heic */,
+				8162F88247D56733A0C89924 /* 03-20-管委會交接欠費催告與給付檢核.heic */,
+				332B5D16174C8BA61480511F /* 03-21-欠費住戶公共基金來源檢核.heic */,
+				5855A240FDDDBC6D06CAFBBB /* 03-22-欠費住戶公共基金不得扣押抵銷檢核.heic */,
+				FBE4AFEF15B15400742005A8 /* 03-23-欠費住戶收支公告與移交檢核.heic */,
+				67382A49447B4570DB3196BC /* 03-24-欠費住戶欠費催告與給付檢核.heic */,
+				C072558B132FA8D9C7E6E5C3 /* 03-25-電梯維修公共基金來源檢核.heic */,
+				5F598124BF934AA2EE38EA3A /* 03-26-電梯維修公共基金不得扣押抵銷檢核.heic */,
+				887E62F05D4F181E2470CF30 /* 03-27-電梯維修收支公告與移交檢核.heic */,
+				C29613411D9FBBEB3B832468 /* 03-28-電梯維修欠費催告與給付檢核.heic */,
+				42383CFB1563A1BB43DE4D82 /* 03-29-大樓外牆修繕公共基金來源檢核.heic */,
+				B2C84A9FF3CBA15C478E1201 /* 03-30-大樓外牆修繕公共基金不得扣押抵銷檢核.heic */,
+				45001FE43CFF7F276EF650C8 /* 04-01-規約應載明事項.heic */,
+				37663B0E7E4D243CFE1F832C /* 04-02-繼受人文件閱覽.heic */,
+				79164C4E5C8827FE05EA30B4 /* 04-03-區分所有權人會議召集.heic */,
+				F8CF099C7C066716DD5F7B36 /* 04-04-表決權與委託出席.heic */,
+				47BAD2B1FEC24CB460EF3CA4 /* 04-05-決議門檻圖解.heic */,
+				5228751BFEB41FF67C40A060 /* 04-06-公告欄規約應載明事項檢核.heic */,
+				66F1EFF6E27F0F745842A439 /* 04-07-公告欄繼受人文件閱覽檢核.heic */,
+				A4E4C7E73DD3CDE200EE1284 /* 04-08-公告欄區分所有權人會議召集檢核.heic */,
+				52CAC6675C46F8F3ED147208 /* 04-09-公告欄表決權與委託出席檢核.heic */,
+				5F83EA1BA2EC57EC2A229488 /* 04-10-公告欄決議門檻圖解檢核.heic */,
+				0DFEA1E42813C6BC2CB16E9B /* 04-11-投票區規約應載明事項檢核.heic */,
+				04B451EE34D80D7884D69C37 /* 04-12-投票區繼受人文件閱覽檢核.heic */,
+				F37555D1828020CA339E0E36 /* 04-13-投票區區分所有權人會議召集檢核.heic */,
+				0940F41724AC6040646E52B9 /* 04-14-投票區表決權與委託出席檢核.heic */,
+				B97EBB29332AF58FB6CD783D /* 04-15-投票區決議門檻圖解檢核.heic */,
+				07C192F92B3C42536A01A231 /* 04-16-住戶信箱規約應載明事項檢核.heic */,
+				AFAE0DC6C9DE12AC4E9A0EB7 /* 04-17-住戶信箱繼受人文件閱覽檢核.heic */,
+				E7CF43B7E96EDF661EA4CF29 /* 04-18-住戶信箱區分所有權人會議召集檢核.heic */,
+				328981A64C080B4B1EB76AE9 /* 04-19-住戶信箱表決權與委託出席檢核.heic */,
+				DBAE3BAFF20689FE3AE189BB /* 04-20-住戶信箱決議門檻圖解檢核.heic */,
+				7646ABB18ECE62767CC417A8 /* 04-21-線上通知板規約應載明事項檢核.heic */,
+				FB3C9C8458BF7C24C314008E /* 04-22-線上通知板繼受人文件閱覽檢核.heic */,
+				962A5E5BEC693A121B9F340C /* 04-23-線上通知板區分所有權人會議召集檢核.heic */,
+				642D7CD4C2D921839DC8D5BB /* 04-24-線上通知板表決權與委託出席檢核.heic */,
+				540BED893669DB98037E7BB6 /* 04-25-線上通知板決議門檻圖解檢核.heic */,
+				6C4D3678BA47ACC89C90ADFD /* 04-26-重新召集會議規約應載明事項檢核.heic */,
+				1808E023F0E0BFC7D5338B95 /* 04-27-重新召集會議繼受人文件閱覽檢核.heic */,
+				254E607ADCB43463C0D02E56 /* 04-28-重新召集會議區分所有權人會議召集檢核.heic */,
+				7D6B0AC254BFD2872BEEFD0A /* 04-29-重新召集會議表決權與委託出席檢核.heic */,
+				9ACBCE5C0DD4B167835DE8CF /* 04-30-重新召集會議決議門檻圖解檢核.heic */,
+				7E174603BE8A69AA0F3706A7 /* 04-31-臨時會議規約應載明事項檢核.heic */,
+				B477FCCC451B3237D677C0CF /* 04-32-臨時會議繼受人文件閱覽檢核.heic */,
+				760B0DD372904A4BE1EFA0CD /* 04-33-臨時會議區分所有權人會議召集檢核.heic */,
+				AC0505839E9E0D8BD46833F4 /* 04-34-臨時會議表決權與委託出席檢核.heic */,
+				EEDDBDC08BF53FCA58B7E9D3 /* 04-35-臨時會議決議門檻圖解檢核.heic */,
+				D7E28AE801F052CFD8E051D8 /* 04-36-規約修訂桌規約應載明事項檢核.heic */,
+				37D9880056F8882C3B400FD3 /* 04-37-規約修訂桌繼受人文件閱覽檢核.heic */,
+				B139F66E9D27F4A83DD5CA27 /* 04-38-規約修訂桌區分所有權人會議召集檢核.heic */,
+				0B52FE83DB666EB3496FEF1F /* 04-39-規約修訂桌表決權與委託出席檢核.heic */,
+				3CD7ED91DE9BCA420DF3FC3E /* 04-40-規約修訂桌決議門檻圖解檢核.heic */,
+				E3EEF9B5F77D97D881E1AAF3 /* 04-41-會議室規約應載明事項檢核.heic */,
+				77365B51E64A7C526F5FA2F2 /* 04-42-會議室繼受人文件閱覽檢核.heic */,
+				43DCD39803C5492B98ED7C30 /* 04-43-會議室區分所有權人會議召集檢核.heic */,
+				3059E065D3FB8821927AA1A3 /* 04-44-會議室表決權與委託出席檢核.heic */,
+				ABAB40C89F0164A65BFA9EC0 /* 04-45-會議室決議門檻圖解檢核.heic */,
+				C7D5A119AE09F893F790C287 /* 05-01-起造人召集第一次會議.heic */,
+				5DAA9187D0E4D877F49B31A7 /* 05-02-管理委員會成立.heic */,
+				AC30D6B84D652353E47E851F /* 05-03-會議紀錄保存.heic */,
+				B0E588542FDC0EF635EC148B /* 05-04-文件閱覽不得拒絕.heic */,
+				5215D9549D779BB41C2EBA93 /* 05-05-管理委員會職務.heic */,
+				C0C487B21B40D7F6BAF196E4 /* 05-06-管委會辦公桌起造人召集第一次會議檢核.heic */,
+				EF7B4465BC312665583B9EF8 /* 05-07-管委會辦公桌管理委員會成立檢核.heic */,
+				D9733D5FE5AA4651A1762A42 /* 05-08-管委會辦公桌會議紀錄保存檢核.heic */,
+				738C27370B82F0C2D2CAE540 /* 05-09-管委會辦公桌文件閱覽不得拒絕檢核.heic */,
+				37264515885D1C468B4497F0 /* 05-10-管委會辦公桌管理委員會職務檢核.heic */,
+				AEC87A8AFEAE03FAECD3CBF6 /* 05-11-管理中心起造人召集第一次會議檢核.heic */,
+				B81CE1594162C4842034B29C /* 05-12-管理中心管理委員會成立檢核.heic */,
+				7C7ACBB866E2CDB25A15E26B /* 05-13-管理中心會議紀錄保存檢核.heic */,
+				A60E3F522F2207AC9F95BF6B /* 05-14-管理中心文件閱覽不得拒絕檢核.heic */,
+				291656D3995720A133A02F3E /* 05-15-管理中心管理委員會職務檢核.heic */,
+				78CDC6775495E930F450AF39 /* 05-16-文件櫃起造人召集第一次會議檢核.heic */,
+				A5A396CE45E59CE96A787FAE /* 05-17-文件櫃管理委員會成立檢核.heic */,
+				35A073FADACC485D77356B08 /* 05-18-文件櫃會議紀錄保存檢核.heic */,
+				53E7BB39FBECEA53386207DC /* 05-19-文件櫃文件閱覽不得拒絕檢核.heic */,
+				D8EBD43C9D1AFB3D36E16202 /* 05-20-文件櫃管理委員會職務檢核.heic */,
+				0DFC8B261DCCBE4E989426BE /* 05-21-清潔維護現場起造人召集第一次會議檢核.heic */,
+				63561F350D04F233A5BE4C57 /* 05-22-清潔維護現場管理委員會成立檢核.heic */,
+				340DAF88AAD0F6F5FA996A02 /* 05-23-清潔維護現場會議紀錄保存檢核.heic */,
+				55106E76E246645BD9D80B3E /* 05-24-清潔維護現場文件閱覽不得拒絕檢核.heic */,
+				C0265B4F8D762A11DDC184AE /* 05-25-清潔維護現場管理委員會職務檢核.heic */,
+				8E400F8C5752A9FA08AE5525 /* 05-26-公共安全巡檢起造人召集第一次會議檢核.heic */,
+				14FE2D4C6F7B792EB4BFAF91 /* 05-27-公共安全巡檢管理委員會成立檢核.heic */,
+				4730578121BEE032D041712B /* 05-28-公共安全巡檢會議紀錄保存檢核.heic */,
+				9E08A8B857293BCA994AAA1D /* 05-29-公共安全巡檢文件閱覽不得拒絕檢核.heic */,
+				7694FC0F6D97969888FD58B3 /* 05-30-公共安全巡檢管理委員會職務檢核.heic */,
+				9DAC3D2A992C4079D04F060D /* 05-31-主任委員簽章起造人召集第一次會議檢核.heic */,
+				9B0C8D9A8C2D4A17DEDE2019 /* 05-32-主任委員簽章管理委員會成立檢核.heic */,
+				4A6E0A4FD39F22AF60E78992 /* 05-33-主任委員簽章會議紀錄保存檢核.heic */,
+				B3F5E2E7C428444A9AE22D48 /* 05-34-主任委員簽章文件閱覽不得拒絕檢核.heic */,
+				AF96C5FA25ACDA4DBD643E50 /* 05-35-主任委員簽章管理委員會職務檢核.heic */,
+				78C25340A67DB347B40CD4EB /* 05-36-住戶服務櫃台起造人召集第一次會議檢核.heic */,
+				7414F0DE14782D7EB600C588 /* 05-37-住戶服務櫃台管理委員會成立檢核.heic */,
+				69B815BC7646530DB0909FC1 /* 05-38-住戶服務櫃台會議紀錄保存檢核.heic */,
+				EC007CBFDA9E921FFC9166B5 /* 05-39-住戶服務櫃台文件閱覽不得拒絕檢核.heic */,
+				0F04B87FC3C2E6336AE33C98 /* 05-40-住戶服務櫃台管理委員會職務檢核.heic */,
+				3CCB184889A8ACE4100FE54B /* 06-01-管理維護公司許可.heic */,
+				8048BF878491E1D346E30D97 /* 06-02-委任管理服務人.heic */,
+				086314926EE92D54C7ECCD09 /* 06-03-管理維護公司執業規範.heic */,
+				298F6120771646B09D685C9B /* 06-04-管理服務人員禁止事項.heic */,
+				7DB04986881C972CA8C2F077 /* 06-05-社區服務中心管理維護公司許可檢核.heic */,
+				82C2E665B8B8342D52039E10 /* 06-06-社區服務中心委任管理服務人檢核.heic */,
+				E8897EA3CEDA43D6EDEEEE80 /* 06-07-社區服務中心管理維護公司執業規範檢核.heic */,
+				80840D3BF5312B9AF9CF3B73 /* 06-08-社區服務中心管理服務人員禁止事項檢核.heic */,
+				7F75CE45D521D354AEB737C9 /* 06-09-派駐人員管理維護公司許可檢核.heic */,
+				E519E526EA4F1A3C4D87203D /* 06-10-派駐人員委任管理服務人檢核.heic */,
+				6853521856F9E702F14714E2 /* 06-11-派駐人員管理維護公司執業規範檢核.heic */,
+				6203E625DF08BC4BCF5C3D9B /* 06-12-派駐人員管理服務人員禁止事項檢核.heic */,
+				B203BA1B7E5D188C26A723A7 /* 06-13-機電巡檢管理維護公司許可檢核.heic */,
+				6328CD29726D615917F47B2C /* 06-14-機電巡檢委任管理服務人檢核.heic */,
+				06AC2C6DFDFCCCA9F05C2150 /* 06-15-機電巡檢管理維護公司執業規範檢核.heic */,
+				B005E3266794C4711F104EEC /* 06-16-機電巡檢管理服務人員禁止事項檢核.heic */,
+				275442F0CA827BC60AEA986F /* 06-17-服務契約桌管理維護公司許可檢核.heic */,
+				9829E86305C90F656883125D /* 06-18-服務契約桌委任管理服務人檢核.heic */,
+				7AA303E9691DC39B5F8CAD29 /* 06-19-服務契約桌管理維護公司執業規範檢核.heic */,
+				E45ECC2D9CF13F3BF26925FE /* 06-20-服務契約桌管理服務人員禁止事項檢核.heic */,
+				AD1F8117F959AFBE403641F2 /* 06-21-證照審查管理維護公司許可檢核.heic */,
+				C39EC39DA3B52834F378530D /* 06-22-證照審查委任管理服務人檢核.heic */,
+				0E2188A62BB29215F44262E3 /* 06-23-證照審查管理維護公司執業規範檢核.heic */,
+				C1E84B26B012F39811451D61 /* 06-24-證照審查管理服務人員禁止事項檢核.heic */,
+				277718E10316A13A6FAACA08 /* 06-25-值勤櫃台管理維護公司許可檢核.heic */,
+				F63AC88C5986F47C4B761844 /* 07-01-規約草約與圖說.heic */,
+				AD5275EA88003952E6C60820 /* 07-02-設施設備移交.heic */,
+				1773F00392F4A1489BC2DE1C /* 07-03-共用部分不得讓售.heic */,
+				207319F0F778819D1844F4C4 /* 07-04-舊有公寓成立管理組織.heic */,
+				E89D3C03B9897E20523C5031 /* 07-05-圖說交接桌規約草約與圖說檢核.heic */,
+				6C7A6AAABBE421B43837998E /* 07-06-圖說交接桌設施設備移交檢核.heic */,
+				AD917BC8FF852048A906BFF6 /* 07-07-圖說交接桌共用部分不得讓售檢核.heic */,
+				17FAEE3AE9725D0F1B5F6721 /* 07-08-圖說交接桌舊有公寓成立管理組織檢核.heic */,
+				7BB3E7D3D42CD85A1B0E1D81 /* 07-09-機電設備室規約草約與圖說檢核.heic */,
+				BE3E3A16812540A2ECC7D523 /* 07-10-機電設備室設施設備移交檢核.heic */,
+				21B90B34FEA03F75700CA347 /* 07-11-機電設備室共用部分不得讓售檢核.heic */,
+				CAC0763B7EAA7FC7774159D0 /* 07-12-機電設備室舊有公寓成立管理組織檢核.heic */,
+				AFD3A68D62CF3BC899A40090 /* 07-13-銷售中心規約草約與圖說檢核.heic */,
+				5C8452C931E5921F099A0EF6 /* 07-14-銷售中心設施設備移交檢核.heic */,
+				9B860A9B7D39A74D816432C7 /* 07-15-銷售中心共用部分不得讓售檢核.heic */,
+				24543E563767EE13BC2D4A3C /* 07-16-銷售中心舊有公寓成立管理組織檢核.heic */,
+				42A8CECD1594695CE7617EC0 /* 07-17-老舊公寓梯間規約草約與圖說檢核.heic */,
+				5418615C9CB85FE447E9B585 /* 07-18-老舊公寓梯間設施設備移交檢核.heic */,
+				12732C25AEC443A986739349 /* 07-19-老舊公寓梯間共用部分不得讓售檢核.heic */,
+				53E748145B7013AAC03E11E9 /* 07-20-老舊公寓梯間舊有公寓成立管理組織檢核.heic */,
+				1C6ECECF3E0F4798384B8A86 /* 07-21-竣工圖說箱規約草約與圖說檢核.heic */,
+				CDAD466E3F7465A0F0D712AB /* 07-22-竣工圖說箱設施設備移交檢核.heic */,
+				E64AA8305F0266110A2C5E70 /* 07-23-竣工圖說箱共用部分不得讓售檢核.heic */,
+				EF6ED7B12BC821D1DD1F76CF /* 07-24-竣工圖說箱舊有公寓成立管理組織檢核.heic */,
+				FBF7429234EA479F90BFD946 /* 07-25-公共設施移交規約草約與圖說檢核.heic */,
+				53B1573E5AECF3EB4CD438D8 /* 08-01-三千至一萬五罰鍰.heic */,
+				30B49E44547B8638A72A9CD2 /* 08-02-一千至五千罰鍰.heic */,
+				23B8E4A9AE9C458343EF3A62 /* 08-03-四萬至二十萬罰鍰.heic */,
+				594C229A413041441FC3A5C0 /* 08-04-主管機關處理爭議.heic */,
+				AEA214C8FF5867FD4A1649F1 /* 08-05-主管機關櫃台三千至一萬五罰鍰檢核.heic */,
+				49F99852F2223BDA3ECF34FB /* 08-06-主管機關櫃台一千至五千罰鍰檢核.heic */,
+				0721EADD02A554213861424C /* 08-07-主管機關櫃台四萬至二十萬罰鍰檢核.heic */,
+				E3A1E2219B987D45635B77FE /* 08-08-主管機關櫃台主管機關處理爭議檢核.heic */,
+				DD3A1E8F4D12668A91D670ED /* 08-09-裁處書桌面三千至一萬五罰鍰檢核.heic */,
+				369C685B853F49413CA5F490 /* 08-10-裁處書桌面一千至五千罰鍰檢核.heic */,
+				E177BD95D52E5F6387ADC5D5 /* 08-11-裁處書桌面四萬至二十萬罰鍰檢核.heic */,
+				87E4A654EBB1F303D9CE66A6 /* 08-12-裁處書桌面主管機關處理爭議檢核.heic */,
+				14B39A8CBFCEB1A2C84AF0BA /* 08-13-調處會議三千至一萬五罰鍰檢核.heic */,
+				98E8337053C09081EF5B056F /* 08-14-調處會議一千至五千罰鍰檢核.heic */,
+				DB8C10E0F87E3FB2DBCBD560 /* 08-15-調處會議四萬至二十萬罰鍰檢核.heic */,
+				126C80515384B763263E0421 /* 08-16-調處會議主管機關處理爭議檢核.heic */,
+				6C2BDB63F204B98A1916EA31 /* 08-17-證據照片牆三千至一萬五罰鍰檢核.heic */,
+				A956D3DF512271D01B27A7B6 /* 08-18-證據照片牆一千至五千罰鍰檢核.heic */,
+				ABC52078F999641E80421F85 /* 08-19-證據照片牆四萬至二十萬罰鍰檢核.heic */,
+				A4BDEC75F028CC96FCB79D5F /* 08-20-證據照片牆主管機關處理爭議檢核.heic */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9884D2AD3A392957C934D906 /* CommercialUpdateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922622272A88A73B2966FCC7 /* Build configuration list for PBXNativeTarget "CommercialUpdateUITests" */;
+			buildPhases = (
+				7C225CC7F4AF28E66A924741 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E9F5EBB3733D4B7964818F /* PBXTargetDependency */,
+			);
+			name = CommercialUpdateUITests;
+			packageProductDependencies = (
+			);
+			productName = CommercialUpdateUITests;
+			productReference = 631E2BB1ABF7B2EEA2D1D045 /* CommercialUpdateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F32329C6C1059B9A9833DF52 /* TaiwanCondoLaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2B365767B2C760BAE97ECC /* Build configuration list for PBXNativeTarget "TaiwanCondoLaw" */;
+			buildPhases = (
+				654D58EB8700DE67C7E9958A /* Sources */,
+				B2AAA40CB57D5125912D979D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaiwanCondoLaw;
+			packageProductDependencies = (
+			);
+			productName = TaiwanCondoLaw;
+			productReference = 328C1739646050A6F17C59D6 /* TaiwanCondoLaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E57FF1B2BAC41663E98939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9884D2AD3A392957C934D906 = {
+						DevelopmentTeam = 7H7ZUG2WX8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F32329C6C1059B9A9833DF52;
+					};
+					F32329C6C1059B9A9833DF52 = {
+						DevelopmentTeam = 7H7ZUG2WX8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7256C500806E2CDEABD4D2B /* Build configuration list for PBXProject "CondoLawIllustrated" */;
+			developmentRegion = "zh-Hant";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = BB2FE9DF0028E512CEA9AFBE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EA665213E632785352DAFA85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9884D2AD3A392957C934D906 /* CommercialUpdateUITests */,
+				F32329C6C1059B9A9833DF52 /* TaiwanCondoLaw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2AAA40CB57D5125912D979D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3A960EA10E94A0F1D6E3E8 /* 01-01-公寓大廈定義圖解.heic in Resources */,
+				2406522B02A4573D6614158E /* 01-02-區分所有權圖解.heic in Resources */,
+				5B9E4B6FFF1D7116A6C05830 /* 01-03-住戶義務總覽.heic in Resources */,
+				8F57AB5DA02926AFFE237ABD /* 01-04-標準層公寓大廈定義圖解檢核.heic in Resources */,
+				5F30348DD1C144DF4DE03D41 /* 01-05-標準層區分所有權圖解檢核.heic in Resources */,
+				9E2197877FCD1D77C106B068 /* 01-06-標準層住戶義務總覽檢核.heic in Resources */,
+				D610D4151663C88FF82C4D02 /* 01-07-地下停車層公寓大廈定義圖解檢核.heic in Resources */,
+				A7911A23649012379E0AC172 /* 01-08-地下停車層區分所有權圖解檢核.heic in Resources */,
+				1957D9BC99A5DB5BF8C7C578 /* 01-09-地下停車層住戶義務總覽檢核.heic in Resources */,
+				F6886DC1EEA054CD52C1FDBE /* 01-10-屋頂平台公寓大廈定義圖解檢核.heic in Resources */,
+				02CE46A4D695CDE7B542E4DD /* 01-11-屋頂平台區分所有權圖解檢核.heic in Resources */,
+				8ADC302C3B9C76B707AED215 /* 01-12-屋頂平台住戶義務總覽檢核.heic in Resources */,
+				75E905154A76D3EF52289345 /* 01-13-社區基地公寓大廈定義圖解檢核.heic in Resources */,
+				8F40F1587AF88261E0A636E6 /* 01-14-社區基地區分所有權圖解檢核.heic in Resources */,
+				07AE63D428B0B7F4A385EB5C /* 01-15-社區基地住戶義務總覽檢核.heic in Resources */,
+				607D8537C5BE960B996395C3 /* 01-16-梯廳公寓大廈定義圖解檢核.heic in Resources */,
+				DC4F5A50D88EFE333D998F52 /* 01-17-梯廳區分所有權圖解檢核.heic in Resources */,
+				C4C0AA0C79C1A23027DBD9FF /* 01-18-梯廳住戶義務總覽檢核.heic in Resources */,
+				7DB47E76E2D51DCDF1D5B589 /* 01-19-住戶門口公寓大廈定義圖解檢核.heic in Resources */,
+				CF9C41E1C2889EE4DD42BB57 /* 01-20-住戶門口區分所有權圖解檢核.heic in Resources */,
+				3F072F19D0D9283CA7B56F6A /* 01-21-住戶門口住戶義務總覽檢核.heic in Resources */,
+				1919E475E35EDF46860FF49D /* 01-22-機電室公寓大廈定義圖解檢核.heic in Resources */,
+				0C370740C14DCF043EDA811C /* 01-23-機電室區分所有權圖解檢核.heic in Resources */,
+				17EF8977E9BFB7A791BA0769 /* 01-24-機電室住戶義務總覽檢核.heic in Resources */,
+				B163CC644C0BAA142B11D07D /* 01-25-公共走廊公寓大廈定義圖解檢核.heic in Resources */,
+				C603810A47AF6547AF76F077 /* 01-26-公共走廊區分所有權圖解檢核.heic in Resources */,
+				53EAD715A9670F53F8ECEDE6 /* 01-27-公共走廊住戶義務總覽檢核.heic in Resources */,
+				D3EECAAA6E2AA6EACEA83F26 /* 01-28-管道間公寓大廈定義圖解檢核.heic in Resources */,
+				2B3D4EFD134A8B33DE62543C /* 01-29-管道間區分所有權圖解檢核.heic in Resources */,
+				FAC22463C284482D96FD6710 /* 01-30-管道間住戶義務總覽檢核.heic in Resources */,
+				913DA6C13A567A9499051C78 /* 02-01-共用部分不得約定專用.heic in Resources */,
+				F75A683AB16E47220524B762 /* 02-02-外牆與樓頂平台限制.heic in Resources */,
+				AF918792945216C13B83DFC2 /* 02-03-共用部分修繕分工.heic in Resources */,
+				D77FB6325348E97A3F48B936 /* 02-04-防火巷弄堆置禁止.heic in Resources */,
+				CEDFEE54E4B74BDD741AEB72 /* 02-05-樓頂平台共用部分不得約定專用檢核.heic in Resources */,
+				2CA8046F533F5A11A095A1AD /* 02-06-樓頂平台外牆與樓頂平台限制檢核.heic in Resources */,
+				A5B75D92841459FEC5CD8B9F /* 02-07-樓頂平台共用部分修繕分工檢核.heic in Resources */,
+				8191E07A9088EE1242C46D6A /* 02-08-樓頂平台防火巷弄堆置禁止檢核.heic in Resources */,
+				D02B4835B7A4AA409B5EA3D1 /* 02-09-共同走廊共用部分不得約定專用檢核.heic in Resources */,
+				648524D70B588C2DF98C1906 /* 02-10-共同走廊外牆與樓頂平台限制檢核.heic in Resources */,
+				E09DA0BB23230710CEF47C44 /* 02-11-共同走廊共用部分修繕分工檢核.heic in Resources */,
+				DEEFD99B19C4E0C6D833048D /* 02-12-共同走廊防火巷弄堆置禁止檢核.heic in Resources */,
+				465EE8A4774134DA0F0BBF6F /* 02-13-樓梯間共用部分不得約定專用檢核.heic in Resources */,
+				B963276F5368F46BEEF9EA42 /* 02-14-樓梯間外牆與樓頂平台限制檢核.heic in Resources */,
+				987E9A5BB326321AB5827569 /* 02-15-樓梯間共用部分修繕分工檢核.heic in Resources */,
+				25901A4314A4171A6DB34003 /* 02-16-樓梯間防火巷弄堆置禁止檢核.heic in Resources */,
+				775B9E1BB06DC025327CEC19 /* 02-17-防火巷弄共用部分不得約定專用檢核.heic in Resources */,
+				639B079FD35B51508B592C6C /* 02-18-防火巷弄外牆與樓頂平台限制檢核.heic in Resources */,
+				E6AEB3FCFA34D6125366EC2A /* 02-19-防火巷弄共用部分修繕分工檢核.heic in Resources */,
+				D21E142DAE91B1B798A1878D /* 02-20-防火巷弄通道堆置禁止檢核.heic in Resources */,
+				A58AF93D5D6C882B57D1FA5C /* 02-21-門廳共用部分不得約定專用檢核.heic in Resources */,
+				9E1EA11DD50F84798CF4B942 /* 02-22-門廳外牆與樓頂平台限制檢核.heic in Resources */,
+				361D4B2CCB975393D791E10F /* 02-23-門廳共用部分修繕分工檢核.heic in Resources */,
+				9152CA97A49C1FDCD8288A3B /* 02-24-門廳防火巷弄堆置禁止檢核.heic in Resources */,
+				819B70194D62F31D5C9F7DF7 /* 02-25-地下室共用部分不得約定專用檢核.heic in Resources */,
+				9D9217DCB3FF922933834B66 /* 02-26-地下室外牆與樓頂平台限制檢核.heic in Resources */,
+				2B5BBF95A3310DFD51F38E5C /* 02-27-地下室共用部分修繕分工檢核.heic in Resources */,
+				D410EBC9FAF710E9B93CCDB4 /* 02-28-地下室防火巷弄堆置禁止檢核.heic in Resources */,
+				4C74F61E3960052AD5A0C836 /* 02-29-停車空間共用部分不得約定專用檢核.heic in Resources */,
+				FC2ADAFB8ED4AC3FCE371239 /* 02-30-停車空間外牆與樓頂平台限制檢核.heic in Resources */,
+				3BCFC9F56CAA7E1AC7BF1C9B /* 02-31-停車空間共用部分修繕分工檢核.heic in Resources */,
+				83D4B6D58A9AFF31951F78A9 /* 02-32-停車空間防火巷弄堆置禁止檢核.heic in Resources */,
+				80E716D5F32CB42528BCB4D7 /* 02-33-公共管線共用部分不得約定專用檢核.heic in Resources */,
+				E1DDD30D3B331BEE2DF2C3FF /* 02-34-公共管線外牆與樓頂平台限制檢核.heic in Resources */,
+				B7F5C01F17FC61AF67420CC9 /* 02-35-公共管線共用部分修繕分工檢核.heic in Resources */,
+				5AD740063520F467DACACC3D /* 03-01-公共基金來源.heic in Resources */,
+				051A30FE5910C18D6B1FA056 /* 03-02-公共基金不得扣押抵銷.heic in Resources */,
+				D9BBE8E7532E2064C29CB987 /* 03-03-收支公告與移交.heic in Resources */,
+				95A412B75B74C74BD0CE1564 /* 03-04-欠費催告與給付.heic in Resources */,
+				0682D8FE3E727965FA4E7C20 /* 03-05-公告欄公共基金來源檢核.heic in Resources */,
+				2905F1B613C43F2ECC16FAD6 /* 03-06-公告欄公共基金不得扣押抵銷檢核.heic in Resources */,
+				796469BDF3D47BEA62F3A2F2 /* 03-07-公告欄收支公告與移交檢核.heic in Resources */,
+				54958A10D5C8AD8B2E4069FA /* 03-08-公告欄欠費催告與給付檢核.heic in Resources */,
+				B8E0706E2B63E540195B84B8 /* 03-09-銀行專戶公共基金來源檢核.heic in Resources */,
+				19BFBF8B266A95B90F3D432E /* 03-10-銀行專戶公共基金不得扣押抵銷檢核.heic in Resources */,
+				3CBC72B7F54E8F405BBD596E /* 03-11-銀行專戶收支公告與移交檢核.heic in Resources */,
+				4F539D3F98ADF1FFF69CF876 /* 03-12-銀行專戶欠費催告與給付檢核.heic in Resources */,
+				D6359AEB71495CA72614A6DF /* 03-13-修繕現場公共基金來源檢核.heic in Resources */,
+				EBD1296DE1C393971B085C51 /* 03-14-修繕現場公共基金不得扣押抵銷檢核.heic in Resources */,
+				D07F50AE050B3910972C61C5 /* 03-15-修繕現場收支公告與移交檢核.heic in Resources */,
+				E1790593A3785C7C0E6D9C94 /* 03-16-修繕現場欠費催告與給付檢核.heic in Resources */,
+				1859A63DBA87BA6B0957F4D0 /* 03-17-管委會交接公共基金來源檢核.heic in Resources */,
+				EB9C226F0642F0C271B65156 /* 03-18-管委會交接公共基金不得扣押抵銷檢核.heic in Resources */,
+				C5796902CB86290CFBBD7FF8 /* 03-19-管委會交接收支公告與移交檢核.heic in Resources */,
+				C81D7A2782008F2DED4DC4D4 /* 03-20-管委會交接欠費催告與給付檢核.heic in Resources */,
+				92C65DB76AC85F861345BC8E /* 03-21-欠費住戶公共基金來源檢核.heic in Resources */,
+				51AB06B6160349588D7E1C1D /* 03-22-欠費住戶公共基金不得扣押抵銷檢核.heic in Resources */,
+				98BD62283D89563DD4B2D8A9 /* 03-23-欠費住戶收支公告與移交檢核.heic in Resources */,
+				DE5DE900EAEEADA02FD2710D /* 03-24-欠費住戶欠費催告與給付檢核.heic in Resources */,
+				45ACC726BD6FED1B2DBEDED4 /* 03-25-電梯維修公共基金來源檢核.heic in Resources */,
+				AB07973C9309285659BAF564 /* 03-26-電梯維修公共基金不得扣押抵銷檢核.heic in Resources */,
+				103080DA59ACAEE57A39DA04 /* 03-27-電梯維修收支公告與移交檢核.heic in Resources */,
+				9A909C7750444C66B62A5B5A /* 03-28-電梯維修欠費催告與給付檢核.heic in Resources */,
+				57317F6C6D68D7CE1E5ED4AB /* 03-29-大樓外牆修繕公共基金來源檢核.heic in Resources */,
+				E141D5BB5852569E3D561B85 /* 03-30-大樓外牆修繕公共基金不得扣押抵銷檢核.heic in Resources */,
+				DE5318694BD3CB3C16401636 /* 04-01-規約應載明事項.heic in Resources */,
+				50A9C94C4F58BD25F15BC743 /* 04-02-繼受人文件閱覽.heic in Resources */,
+				F8F8A0182B7BD7C151FBF337 /* 04-03-區分所有權人會議召集.heic in Resources */,
+				4FA7BA04448C1630637EEE91 /* 04-04-表決權與委託出席.heic in Resources */,
+				2D60E77637884F60AC028DD8 /* 04-05-決議門檻圖解.heic in Resources */,
+				152223A26CF7FBEAD597E163 /* 04-06-公告欄規約應載明事項檢核.heic in Resources */,
+				3504418DCFDE4B11049C8E2F /* 04-07-公告欄繼受人文件閱覽檢核.heic in Resources */,
+				55E0CBDF1094628C0F23CE37 /* 04-08-公告欄區分所有權人會議召集檢核.heic in Resources */,
+				FEDCA80D0FE09C5634D7CD0E /* 04-09-公告欄表決權與委託出席檢核.heic in Resources */,
+				9F2229E35E129716C9FC5226 /* 04-10-公告欄決議門檻圖解檢核.heic in Resources */,
+				F863B5022A966E59E5CCACD9 /* 04-11-投票區規約應載明事項檢核.heic in Resources */,
+				372CBB17F91A6B1940A9C41C /* 04-12-投票區繼受人文件閱覽檢核.heic in Resources */,
+				06EBFF4B79970AFFC672EA5D /* 04-13-投票區區分所有權人會議召集檢核.heic in Resources */,
+				E8E09EAA34CDF1C143EF2D87 /* 04-14-投票區表決權與委託出席檢核.heic in Resources */,
+				84E20E724273618DBE9C77FA /* 04-15-投票區決議門檻圖解檢核.heic in Resources */,
+				DF522185F661688AB27E46BA /* 04-16-住戶信箱規約應載明事項檢核.heic in Resources */,
+				2AB05FF9C78912124C7DFF58 /* 04-17-住戶信箱繼受人文件閱覽檢核.heic in Resources */,
+				8443796AF9D1047083C88A59 /* 04-18-住戶信箱區分所有權人會議召集檢核.heic in Resources */,
+				6816ACC45EE9D2186FE3F5AC /* 04-19-住戶信箱表決權與委託出席檢核.heic in Resources */,
+				84B967C0CF4E94A6C536476D /* 04-20-住戶信箱決議門檻圖解檢核.heic in Resources */,
+				B2343A8B83B51A4C12D8E640 /* 04-21-線上通知板規約應載明事項檢核.heic in Resources */,
+				EAE654D859D68A53BD7016C7 /* 04-22-線上通知板繼受人文件閱覽檢核.heic in Resources */,
+				C5C2A7BDA355D8A98E37AF40 /* 04-23-線上通知板區分所有權人會議召集檢核.heic in Resources */,
+				D3E895C01480E36D2F1BC04F /* 04-24-線上通知板表決權與委託出席檢核.heic in Resources */,
+				9E273FD19B51D7CB1D4A15F3 /* 04-25-線上通知板決議門檻圖解檢核.heic in Resources */,
+				5C1AED187DCE3BB3627B1601 /* 04-26-重新召集會議規約應載明事項檢核.heic in Resources */,
+				9AC05267FD8EA956DB95128F /* 04-27-重新召集會議繼受人文件閱覽檢核.heic in Resources */,
+				11D52BE357343F9E0C0A4886 /* 04-28-重新召集會議區分所有權人會議召集檢核.heic in Resources */,
+				CACFBE3E5B7637F3BF0B8C81 /* 04-29-重新召集會議表決權與委託出席檢核.heic in Resources */,
+				B2CD384EAAD89A6AF3B7712C /* 04-30-重新召集會議決議門檻圖解檢核.heic in Resources */,
+				7FE846034505C227C56D0D62 /* 04-31-臨時會議規約應載明事項檢核.heic in Resources */,
+				B449A9F6253AC6FD543615EE /* 04-32-臨時會議繼受人文件閱覽檢核.heic in Resources */,
+				6E2A19EA567ECEC4A354C3B6 /* 04-33-臨時會議區分所有權人會議召集檢核.heic in Resources */,
+				594AC6563173FF92BCF825DB /* 04-34-臨時會議表決權與委託出席檢核.heic in Resources */,
+				B30008B649FC4A884E005050 /* 04-35-臨時會議決議門檻圖解檢核.heic in Resources */,
+				4A6818436613A75D35EBB4E3 /* 04-36-規約修訂桌規約應載明事項檢核.heic in Resources */,
+				A7EFB4FE73A3CB7DBD347D90 /* 04-37-規約修訂桌繼受人文件閱覽檢核.heic in Resources */,
+				351128D8EA7C4A89FBC0D130 /* 04-38-規約修訂桌區分所有權人會議召集檢核.heic in Resources */,
+				0E10770ECF39C9C2300910D5 /* 04-39-規約修訂桌表決權與委託出席檢核.heic in Resources */,
+				CD69854795DEDBF3214D4E50 /* 04-40-規約修訂桌決議門檻圖解檢核.heic in Resources */,
+				B78830B8A2582D0C87FAF0C0 /* 04-41-會議室規約應載明事項檢核.heic in Resources */,
+				423785A3AEF3A1B72C121179 /* 04-42-會議室繼受人文件閱覽檢核.heic in Resources */,
+				428A99E1FD22B79724EAD6A2 /* 04-43-會議室區分所有權人會議召集檢核.heic in Resources */,
+				D8B452366844F6B8193097BA /* 04-44-會議室表決權與委託出席檢核.heic in Resources */,
+				F7C263DE2CD21FA8A0E151A3 /* 04-45-會議室決議門檻圖解檢核.heic in Resources */,
+				F061B246925FDF825187895D /* 05-01-起造人召集第一次會議.heic in Resources */,
+				63374D1F1A8EE0384B3CE11A /* 05-02-管理委員會成立.heic in Resources */,
+				21001363D0BF1D10728AF7AA /* 05-03-會議紀錄保存.heic in Resources */,
+				B89A9F61C586C3A1735AFBE8 /* 05-04-文件閱覽不得拒絕.heic in Resources */,
+				25C5D2AE33C20322C47D4E1A /* 05-05-管理委員會職務.heic in Resources */,
+				38CDE0A37CB9ED93574FF857 /* 05-06-管委會辦公桌起造人召集第一次會議檢核.heic in Resources */,
+				FC60CD8A8980DDAFD67E6631 /* 05-07-管委會辦公桌管理委員會成立檢核.heic in Resources */,
+				F6FADDEC8805BE2B962CA735 /* 05-08-管委會辦公桌會議紀錄保存檢核.heic in Resources */,
+				455C4D1FFE4034D1A1988AE1 /* 05-09-管委會辦公桌文件閱覽不得拒絕檢核.heic in Resources */,
+				66897DF3479ABFAD10C2BB6E /* 05-10-管委會辦公桌管理委員會職務檢核.heic in Resources */,
+				AFB07B847D15C423BCDD1AEC /* 05-11-管理中心起造人召集第一次會議檢核.heic in Resources */,
+				7EAB8215F9015FEEB670FD31 /* 05-12-管理中心管理委員會成立檢核.heic in Resources */,
+				4F4472F321E96862A94188B5 /* 05-13-管理中心會議紀錄保存檢核.heic in Resources */,
+				9C736F00B3860584372A5982 /* 05-14-管理中心文件閱覽不得拒絕檢核.heic in Resources */,
+				113A42E83584AADAED394E93 /* 05-15-管理中心管理委員會職務檢核.heic in Resources */,
+				5A55046F3D20068C6061B718 /* 05-16-文件櫃起造人召集第一次會議檢核.heic in Resources */,
+				1DA69AF195A745C31FA7C4C5 /* 05-17-文件櫃管理委員會成立檢核.heic in Resources */,
+				93251A25747E20C15EFF6538 /* 05-18-文件櫃會議紀錄保存檢核.heic in Resources */,
+				8AB65A3E38658849D3ED1B0A /* 05-19-文件櫃文件閱覽不得拒絕檢核.heic in Resources */,
+				3EC0964FAAC85DAD4BFB75FB /* 05-20-文件櫃管理委員會職務檢核.heic in Resources */,
+				E251ED6BE8F774A9A0D81343 /* 05-21-清潔維護現場起造人召集第一次會議檢核.heic in Resources */,
+				3E4F9C72DED4EBFEAE9EA7E7 /* 05-22-清潔維護現場管理委員會成立檢核.heic in Resources */,
+				EE30E49D73B093D6F3A5D81E /* 05-23-清潔維護現場會議紀錄保存檢核.heic in Resources */,
+				0355664F06C7A8047E094F6E /* 05-24-清潔維護現場文件閱覽不得拒絕檢核.heic in Resources */,
+				5CD194D467D9A5B2421828F8 /* 05-25-清潔維護現場管理委員會職務檢核.heic in Resources */,
+				D11246BE752867FD1A543639 /* 05-26-公共安全巡檢起造人召集第一次會議檢核.heic in Resources */,
+				497EA53A052D8212FD34898D /* 05-27-公共安全巡檢管理委員會成立檢核.heic in Resources */,
+				4ACB5A3A19E2493D7AE5A0F1 /* 05-28-公共安全巡檢會議紀錄保存檢核.heic in Resources */,
+				9198DFF4968E36BA042DA524 /* 05-29-公共安全巡檢文件閱覽不得拒絕檢核.heic in Resources */,
+				03AD2A24355EBF052ACD54A7 /* 05-30-公共安全巡檢管理委員會職務檢核.heic in Resources */,
+				098366E3F52D640E66F2FEF4 /* 05-31-主任委員簽章起造人召集第一次會議檢核.heic in Resources */,
+				C176E1FB875C0BA520EA401C /* 05-32-主任委員簽章管理委員會成立檢核.heic in Resources */,
+				D8079E30A5E1DBFDC5633C14 /* 05-33-主任委員簽章會議紀錄保存檢核.heic in Resources */,
+				BA863AAB7B96C731873DD879 /* 05-34-主任委員簽章文件閱覽不得拒絕檢核.heic in Resources */,
+				B664C7D7B7954239B4C4A750 /* 05-35-主任委員簽章管理委員會職務檢核.heic in Resources */,
+				72502AB07F1D10A20C987D7F /* 05-36-住戶服務櫃台起造人召集第一次會議檢核.heic in Resources */,
+				4120D3FCAB25457E598E9327 /* 05-37-住戶服務櫃台管理委員會成立檢核.heic in Resources */,
+				39AC450207A7DC8AF8E60FE1 /* 05-38-住戶服務櫃台會議紀錄保存檢核.heic in Resources */,
+				4A504AB49C070481136457B8 /* 05-39-住戶服務櫃台文件閱覽不得拒絕檢核.heic in Resources */,
+				BCF76EB8AE9D84F1C2E1C6EA /* 05-40-住戶服務櫃台管理委員會職務檢核.heic in Resources */,
+				ADC200965059F47B7E14C0DF /* 06-01-管理維護公司許可.heic in Resources */,
+				0F5FC3CBD3D24EB225DA5471 /* 06-02-委任管理服務人.heic in Resources */,
+				9DBDAE950CF0728F739DC041 /* 06-03-管理維護公司執業規範.heic in Resources */,
+				2ECAAF071EADABD22AA74D2D /* 06-04-管理服務人員禁止事項.heic in Resources */,
+				4DD9FE63CDB2A5D5E53E0E6E /* 06-05-社區服務中心管理維護公司許可檢核.heic in Resources */,
+				5D983DD409EDDD0A66F1C09D /* 06-06-社區服務中心委任管理服務人檢核.heic in Resources */,
+				FB4B81C80DFB2B99BD47974E /* 06-07-社區服務中心管理維護公司執業規範檢核.heic in Resources */,
+				3A18A4C4035F7733979A4465 /* 06-08-社區服務中心管理服務人員禁止事項檢核.heic in Resources */,
+				D667CCE9C65410B2E4D7E1DE /* 06-09-派駐人員管理維護公司許可檢核.heic in Resources */,
+				FA90D794798D6828185A0B69 /* 06-10-派駐人員委任管理服務人檢核.heic in Resources */,
+				36B15D98DAE4F043209FF70E /* 06-11-派駐人員管理維護公司執業規範檢核.heic in Resources */,
+				5AD4B988370DAF5B3F9CF2DB /* 06-12-派駐人員管理服務人員禁止事項檢核.heic in Resources */,
+				E939ED3FD1812CF74988340C /* 06-13-機電巡檢管理維護公司許可檢核.heic in Resources */,
+				5809895DD2A0C85D85C45BE8 /* 06-14-機電巡檢委任管理服務人檢核.heic in Resources */,
+				D0D64345AB70997178CBAD2F /* 06-15-機電巡檢管理維護公司執業規範檢核.heic in Resources */,
+				4E4B390310F2F526C6A2F3C2 /* 06-16-機電巡檢管理服務人員禁止事項檢核.heic in Resources */,
+				53DB6940B00CE00E1140A6CE /* 06-17-服務契約桌管理維護公司許可檢核.heic in Resources */,
+				8DE9BF5B9140E94412250818 /* 06-18-服務契約桌委任管理服務人檢核.heic in Resources */,
+				9B4ACF2E485D382DEC7A33FD /* 06-19-服務契約桌管理維護公司執業規範檢核.heic in Resources */,
+				2C8D206C875BD2847CCB85B5 /* 06-20-服務契約桌管理服務人員禁止事項檢核.heic in Resources */,
+				6B7CB51E9C7A7E16570F5DD6 /* 06-21-證照審查管理維護公司許可檢核.heic in Resources */,
+				B770F1E6AA780CD442BB736C /* 06-22-證照審查委任管理服務人檢核.heic in Resources */,
+				C5AB0C85C6EC0F1D2E03B61F /* 06-23-證照審查管理維護公司執業規範檢核.heic in Resources */,
+				BB90349566B4E95A5B04E013 /* 06-24-證照審查管理服務人員禁止事項檢核.heic in Resources */,
+				4415929D9402D99AAE223A80 /* 06-25-值勤櫃台管理維護公司許可檢核.heic in Resources */,
+				C7083686590B73513E99E142 /* 07-01-規約草約與圖說.heic in Resources */,
+				54B434AB9EA0B4C639E862E1 /* 07-02-設施設備移交.heic in Resources */,
+				BABBFE8DE0A9D65C917E5846 /* 07-03-共用部分不得讓售.heic in Resources */,
+				18371460E658D874803D4284 /* 07-04-舊有公寓成立管理組織.heic in Resources */,
+				A333F93E351F1EB4C589D1E3 /* 07-05-圖說交接桌規約草約與圖說檢核.heic in Resources */,
+				2E2DE82B1475E1980EECB0A0 /* 07-06-圖說交接桌設施設備移交檢核.heic in Resources */,
+				9CF807FEB4D2B789A6D075F7 /* 07-07-圖說交接桌共用部分不得讓售檢核.heic in Resources */,
+				297554A0543853D7BA51B0FF /* 07-08-圖說交接桌舊有公寓成立管理組織檢核.heic in Resources */,
+				BFBD53E72B772101F64E6A33 /* 07-09-機電設備室規約草約與圖說檢核.heic in Resources */,
+				DF622EE9BA5C46891C50F5EF /* 07-10-機電設備室設施設備移交檢核.heic in Resources */,
+				83D6593A216B63A48100F830 /* 07-11-機電設備室共用部分不得讓售檢核.heic in Resources */,
+				06AB5A0CD6337C98DB986030 /* 07-12-機電設備室舊有公寓成立管理組織檢核.heic in Resources */,
+				EB9622E9B6A06883A7F2F4BE /* 07-13-銷售中心規約草約與圖說檢核.heic in Resources */,
+				D1169BDF898AF2E0DCD7A6D7 /* 07-14-銷售中心設施設備移交檢核.heic in Resources */,
+				D13EA157EC6A2CE32CC33452 /* 07-15-銷售中心共用部分不得讓售檢核.heic in Resources */,
+				81CADD56A60DDCA9A29D3FAE /* 07-16-銷售中心舊有公寓成立管理組織檢核.heic in Resources */,
+				5C0C4E14D3A515BF1B996329 /* 07-17-老舊公寓梯間規約草約與圖說檢核.heic in Resources */,
+				B5C2BC2896924CCA7D2DC35F /* 07-18-老舊公寓梯間設施設備移交檢核.heic in Resources */,
+				A06186D40327056B34284D39 /* 07-19-老舊公寓梯間共用部分不得讓售檢核.heic in Resources */,
+				C05373FD2CE2D67CA45A81BD /* 07-20-老舊公寓梯間舊有公寓成立管理組織檢核.heic in Resources */,
+				624FDB4DE15314B7BF99285E /* 07-21-竣工圖說箱規約草約與圖說檢核.heic in Resources */,
+				97A49648E7496C91CFBB5325 /* 07-22-竣工圖說箱設施設備移交檢核.heic in Resources */,
+				2FDE186297F45975B3D75F37 /* 07-23-竣工圖說箱共用部分不得讓售檢核.heic in Resources */,
+				554DD8175E3CDB9880A159C7 /* 07-24-竣工圖說箱舊有公寓成立管理組織檢核.heic in Resources */,
+				E17B23A11E066019E63A49D0 /* 07-25-公共設施移交規約草約與圖說檢核.heic in Resources */,
+				6A6628C9B13FA24A3F6A4188 /* 08-01-三千至一萬五罰鍰.heic in Resources */,
+				A818C6DB18CDA31D277D21DF /* 08-02-一千至五千罰鍰.heic in Resources */,
+				87416BA11EE3ABF0A59ADD82 /* 08-03-四萬至二十萬罰鍰.heic in Resources */,
+				9080DC21F9B20912B0E3D03F /* 08-04-主管機關處理爭議.heic in Resources */,
+				EF20729C652B48FCF90C9D2F /* 08-05-主管機關櫃台三千至一萬五罰鍰檢核.heic in Resources */,
+				54F6B198D086B4C729A416B1 /* 08-06-主管機關櫃台一千至五千罰鍰檢核.heic in Resources */,
+				75FB55D91B164789092057F8 /* 08-07-主管機關櫃台四萬至二十萬罰鍰檢核.heic in Resources */,
+				6FA14839D5E7B617331C92E0 /* 08-08-主管機關櫃台主管機關處理爭議檢核.heic in Resources */,
+				6539380D8BE105E3C0DA480A /* 08-09-裁處書桌面三千至一萬五罰鍰檢核.heic in Resources */,
+				7B509665BAB44A2CB9F1B155 /* 08-10-裁處書桌面一千至五千罰鍰檢核.heic in Resources */,
+				04292BAAB011CADA9EE3B57B /* 08-11-裁處書桌面四萬至二十萬罰鍰檢核.heic in Resources */,
+				4CFFEF4989B33D4B44662FC1 /* 08-12-裁處書桌面主管機關處理爭議檢核.heic in Resources */,
+				A4BC92DF090F5A9BD5F316E4 /* 08-13-調處會議三千至一萬五罰鍰檢核.heic in Resources */,
+				A204D4AB43F4828853052EBF /* 08-14-調處會議一千至五千罰鍰檢核.heic in Resources */,
+				135E8BC42FFB2BD5320FF969 /* 08-15-調處會議四萬至二十萬罰鍰檢核.heic in Resources */,
+				3A900BE9E8C972AF0B42D5DB /* 08-16-調處會議主管機關處理爭議檢核.heic in Resources */,
+				42B2AD15F7492DEAFCE725B4 /* 08-17-證據照片牆三千至一萬五罰鍰檢核.heic in Resources */,
+				26A0027004AFC0B9804C18F8 /* 08-18-證據照片牆一千至五千罰鍰檢核.heic in Resources */,
+				B70196A2DD462EADA270AEF3 /* 08-19-證據照片牆四萬至二十萬罰鍰檢核.heic in Resources */,
+				288A3BCA0975CDF6F4F8CFC0 /* 08-20-證據照片牆主管機關處理爭議檢核.heic in Resources */,
+				E70C64CA0F7C515F8F005D59 /* Assets.xcassets in Resources */,
+				97E6D88DD54D2083CF366206 /* Configuration.storekit in Resources */,
+				83EDD407CDFE9940299CCA16 /* PrivacyInfo.xcprivacy in Resources */,
+				212B07D7FE2FCBA7C33F9A38 /* articles.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654D58EB8700DE67C7E9958A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C40F36419EAABED3461590 /* AppTheme.swift in Sources */,
+				3FF3220EFF38D3DF20713B36 /* ArticleData.swift in Sources */,
+				6AC41355AA0AC2B296BCE42E /* ArticleDetailView.swift in Sources */,
+				B038C3ACA6276A5ED2457A48 /* ArticleStore.swift in Sources */,
+				BF33A7E675C74251DA5E658F /* BookmarkStore.swift in Sources */,
+				98E30177DC182E2141F9BF02 /* CondoChecklistView.swift in Sources */,
+				38B324DE003BC4D2DBA8F452 /* CondoQuizView.swift in Sources */,
+				EB0BFF002ABCFFE754A541FA /* Constants.swift in Sources */,
+				1339B7B27F0CCEA2EE461168 /* ContentView.swift in Sources */,
+				042A8C7FAB1CDD1D9E224A06 /* FullTextHomeView.swift in Sources */,
+				B84D53C964CBC5BB30C9CC37 /* GalleryView.swift in Sources */,
+				3080D04618BAE214DC47E291 /* IAPManager.swift in Sources */,
+				0E4D45C89D02AF415CAC73DC /* IllustrationsHomeView.swift in Sources */,
+				FF803DF701325DA5202138E0 /* IsoHouseView.swift in Sources */,
+				8A82E8D7A03225EF99E66496 /* IsoIconsView.swift in Sources */,
+				13F00C82087A9B1CCE936894 /* OnboardingView.swift in Sources */,
+				73C9136D51103459C0AC2890 /* PaywallView.swift in Sources */,
+				6617C33C4ACAA2E32AB4FEE4 /* PreviewLockView.swift in Sources */,
+				69B831A5C9DF9EA1A51548FD /* ProfessionalTool.swift in Sources */,
+				79025F843B188FA9B049BA36 /* ProfessionalToolsView.swift in Sources */,
+				B7E9E10BE36A0DBEB14F02D2 /* RegulatoryResource.swift in Sources */,
+				2176C711084D5FFB43760FEB /* RegulatoryResourcesView.swift in Sources */,
+				3EBA47968AE3EB2E54DD0C8D /* ResourceJPEG.swift in Sources */,
+				4927A869A068BC507AE04DE6 /* SearchView.swift in Sources */,
+				17757D24D23D4F0EB80B1F8E /* TaiwanCondoLawApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C225CC7F4AF28E66A924741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF61EC1BCC70DE97D28C994 /* CommercialUpdateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E9F5EBB3733D4B7964818F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32329C6C1059B9A9833DF52 /* TaiwanCondoLaw */;
+			targetProxy = 7BABC4753564BF23E7A2BC07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4333BDE73ED9B288A9FDE7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanarch.condolaw.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaiwanCondoLaw;
+			};
+			name = Release;
+		};
+		59C8C1D002ADA92329A7E854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TaiwanCondoLaw/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanarch.condolaw;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68AFCC94C6A16595C512E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanarch.condolaw.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaiwanCondoLaw;
+			};
+			name = Debug;
+		};
+		6D11EE19884F2DB8700A529B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TaiwanCondoLaw/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanarch.condolaw;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A15A2D4F62FFFAB6A7E6AF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7H7ZUG2WX8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		C72CE9CC28BF0D0B21984D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7H7ZUG2WX8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		922622272A88A73B2966FCC7 /* Build configuration list for PBXNativeTarget "CommercialUpdateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AFCC94C6A16595C512E7D2 /* Debug */,
+				4333BDE73ED9B288A9FDE7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE2B365767B2C760BAE97ECC /* Build configuration list for PBXNativeTarget "TaiwanCondoLaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C8C1D002ADA92329A7E854 /* Debug */,
+				6D11EE19884F2DB8700A529B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7256C500806E2CDEABD4D2B /* Build configuration list for PBXProject "CondoLawIllustrated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15A2D4F62FFFAB6A7E6AF65 /* Debug */,
+				C72CE9CC28BF0D0B21984D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E57FF1B2BAC41663E98939 /* Project object */;
+}
