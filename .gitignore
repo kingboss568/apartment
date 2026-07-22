@@ -11,5 +11,6 @@ DerivedData/
 fastlane/report.xml
 fastlane/Preview.html
 xcuserdata/
+.swiftpm/
 *.xcuserstate
 fastlane/screenshot-archive/
