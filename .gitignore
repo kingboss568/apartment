@@ -1,0 +1,14 @@
+.DS_Store
+._*
+Signing/
+Build/
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM
+.env.fastlane
+fastlane/report.xml
+fastlane/Preview.html
+xcuserdata/
+*.xcuserstate

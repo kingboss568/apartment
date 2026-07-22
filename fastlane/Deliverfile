@@ -1,5 +1,5 @@
 app_identifier ENV.fetch("APP_IDENTIFIER", "com.taiwanarch.condolaw")
-app_version ENV.fetch("APP_VERSION", "1.1")
+app_version ENV.fetch("APP_VERSION", "1.2")
 metadata_path "./fastlane/metadata"
 screenshots_path "./fastlane/screenshots"
 platform "ios"
@@ -12,7 +12,7 @@ app_review_information(
   last_name: "Jiang",
   phone_number: "+886952413678",
   email_address: "jushiung@gmail.com",
-  notes: "本 App 不需要測試帳號。請於解鎖頁測試 Apple 內購買流程；商品 ID：com.taiwanarch.condolaw.fullunlock。購買後可解鎖完整 250 張公寓大廈管理條例圖解、條文摘要、題庫測驗、管理檢核與官方法規資源。法規內容為輔助速查，實際社區決議、催繳、修繕、移交、裁罰與訴訟仍應以主管機關最新公告、全國法規資料庫與正式法律意見為準。"
+  notes: "本 App 不需要測試帳號。1.2 更新加入『圖卡快覽』Pinterest 式直式雙欄瀏覽，可持續滑動 250 張本機圖解；社區管理專業工具擴充為 100 項，每項均可開啟案件清單、勾選進度、風險速算、紀錄與分享。請於解鎖頁測試 Apple 內購買流程，商品 ID：com.taiwanarch.condolaw.fullunlock。法規內容為輔助速查，實際社區決議、修繕、移交與爭議仍以主管機關最新公告及正式法律意見為準。"
 )
 submission_information({
   add_id_info_uses_idfa: false,

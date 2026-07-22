@@ -14,14 +14,6 @@ def ensure_required_env!
   UI.user_error!("Missing required env vars: #{missing.join(', ')}") unless missing.empty?
 end
 
-def ipa_path_from_env_or_options(options)
-  path = options[:ipa].to_s.strip
-  path = ENV["IPA_PATH"].to_s.strip if path.empty?
-  UI.user_error!("Missing IPA path. Pass ipa:/path/to/App.ipa or set IPA_PATH.") if path.empty?
-  UI.user_error!("IPA file not found: #{path}") unless File.exist?(path)
-  path
-end
-
 platform :ios do
   lane :deliver_metadata do
     ensure_required_env!
@@ -52,19 +44,24 @@ platform :ios do
     )
   end
 
-  lane :deliver_ipa do |options|
+  lane :deliver_ipa do
+    UI.user_error!("本機 binary 上傳已停用；App Store binary 必須由 Xcode Cloud Archive → App Store Connect 產生。")
+  end
+
+  lane :submit_review do
     ensure_required_env!
     api_key = appstore_api_key_from_env
     deliver(
       api_key: api_key,
-      ipa: ipa_path_from_env_or_options(options),
       force: true,
-      skip_binary_upload: false,
+      skip_binary_upload: true,
       skip_metadata: true,
       skip_screenshots: true,
-      submit_for_review: false,
-      automatic_release: false,
-      run_precheck_before_submit: false
+      build_number: ENV.fetch("APP_BUILD_NUMBER", "6"),
+      submit_for_review: true,
+      automatic_release: true,
+      run_precheck_before_submit: false,
+      precheck_include_in_app_purchases: false
     )
   end
 end
