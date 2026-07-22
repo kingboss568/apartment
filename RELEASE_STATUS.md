@@ -5,7 +5,7 @@ Updated: 2026-07-22 Asia/Taipei
 - ASC app: `6776649824`
 - Bundle ID: `com.taiwanarch.condolaw`
 - Live baseline: `1.1 (5)` / build `VALID`
-- Update target: `1.2 (6)`
+- Update target: `1.2 (2)`
 - Account/team: `jushiung@gmail.com` / Yu Shiung Jiang (`7H7ZUG2WX8`)
 
 ## Ready locally
@@ -22,8 +22,8 @@ Updated: 2026-07-22 Asia/Taipei
 ## Release gates
 
 - [x] Push current source/privacy manifest to GitHub.
-- [ ] Create the Xcode Cloud product relationship and single `Archive - iOS` workflow.
-- [ ] Cloud build `6` succeeds and appears in ASC as `VALID`.
+- [x] Verified the existing single Xcode Cloud `Archive - iOS` workflow (run `030ffeb3-dc8b-4bc6-8b69-c372ec824c11`).
+- [x] Cloud build `2` succeeded; ASC build `5772a57a-2e08-424a-8226-a7b73c3bbd50` is `VALID` for version 1.2.
 - [x] Capture and validate current 6 iPhone 6.9 + 6 iPad 13 screenshots.
 - [x] Upload the 12 current screenshots to ASC.
-- [ ] Fastlane selects Cloud build `6`, submits update, and ASC shows `WAITING_FOR_REVIEW`.
+- [x] Fastlane selected Cloud build `2`; version 1.2 and submission `c0e9ce97-1020-4127-8e8c-2646452e08ac` are `WAITING_FOR_REVIEW`.

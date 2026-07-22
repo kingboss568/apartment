@@ -57,7 +57,7 @@ platform :ios do
       skip_binary_upload: true,
       skip_metadata: true,
       skip_screenshots: true,
-      build_number: ENV.fetch("APP_BUILD_NUMBER", "6"),
+      build_number: ENV.fetch("APP_BUILD_NUMBER", "2"),
       submit_for_review: true,
       automatic_release: true,
       run_precheck_before_submit: false,
