@@ -14,12 +14,15 @@ Updated: 2026-07-22 Asia/Taipei
 - `圖卡快覽` two-column gallery and six-tab navigation implemented.
 - 10 groups / 100 unique interactive tools implemented.
 - Xcode 27 beta Simulator build passed.
-- Fastlane metadata updated; local binary upload disabled.
+- iPhone 6.9 UI navigation/tool interaction test passed.
+- iPhone 6.9 and iPad 13 visual screenshot QA passed.
+- Fastlane metadata uploaded to ASC version 1.2; local binary upload disabled.
 
 ## Release gates
 
-- [ ] Push current source/privacy manifest to GitHub.
+- [x] Push current source/privacy manifest to GitHub.
 - [ ] Create the Xcode Cloud product relationship and single `Archive - iOS` workflow.
 - [ ] Cloud build `6` succeeds and appears in ASC as `VALID`.
-- [ ] Capture/upload current 6 iPhone 6.9 + 6 iPad 13 screenshots.
+- [x] Capture and validate current 6 iPhone 6.9 + 6 iPad 13 screenshots.
+- [ ] Upload the 12 current screenshots to ASC.
 - [ ] Fastlane selects Cloud build `6`, submits update, and ASC shows `WAITING_FOR_REVIEW`.
